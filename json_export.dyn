@@ -1,0 +1,783 @@
+{
+  "Uuid": "b8cfa917-1a4a-40df-b971-6348b529fb25",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "json_export",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 727,
+      "SelectedString": "OST_Walls",
+      "Id": "30bf6c9f80c64add871f50aea3ea0d1b",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "513f40b41d224fe4b25022a773412989",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 174,
+      "SelectedString": "OST_Doors",
+      "Id": "89959b54f675453bb6023fce63cf5325",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "2ca160a85bf94b65a0e9596a76e0bece",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
+      "Id": "3dd0db69d7364c2c86dd89eebeed0211",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "73d9e610ccb0475d80b13065ec135510",
+          "Name": "",
+          "Description": "File Path",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows you to select a file on the system and returns its file path",
+      "HintPath": "C:\\Users\\lucam\\Desktop\\entangl\\params.csv",
+      "InputValue": ".\\params.csv"
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.ElementsOfCategory, DSRevitNodesUI",
+      "Id": "2e72325d818c4a7ab8708faa1145785f",
+      "NodeType": "ExtensionNode",
+      "Inputs": [
+        {
+          "Id": "e927138cecf745479fea6ced772e9cd2",
+          "Name": "Category",
+          "Description": "The Category",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "d8186d610452422dae9c41c19cdd9363",
+          "Name": "Elements",
+          "Description": "An element class.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Get all elements of the specified category from the model."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "2f4d2270575d4537b9d73aa44c542289",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "3b04bd9670c84ec8bf25c997cd4dab22",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "e45a7ecf94e54bac854d1e09cefaeb17",
+          "Name": "Parameter[]",
+          "Description": "Parameter[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "Revit.Elements.Element.Parameters",
+      "Replication": "Auto",
+      "Description": "Obtain all of the Parameters from an Element, sorted by Name.\n\nElement.Parameters: Parameter[]"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.FromArray, CoreNodeModels",
+      "Id": "a538c0cc7b914f26afd58e7fb2dab981",
+      "NodeType": "ExtensionNode",
+      "Inputs": [
+        {
+          "Id": "6f620b635ee74f1281b32cb47e501e1c",
+          "Name": "array",
+          "Description": "The array of object to be serialized",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "a793a9977684445392d659e116a12045",
+          "Name": "string",
+          "Description": "String representation of the array",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Converts an array to a string representation"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "25eccc7727d74604bca14ff4e86622e3",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "769e8c4844f04d419185d6f9e3776642",
+          "Name": "filePath",
+          "Description": "Path to write to\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "a866589c88264654a26f1d39a2fe08b6",
+          "Name": "data",
+          "Description": "List of lists to write into CSV\n\nvar[][]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "c53f5d85925946dab7416135aac41bc1",
+          "Name": "void",
+          "Description": "void",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "DSOffice.Data.ExportCSV@string,var[][]",
+      "Replication": "Auto",
+      "Description": "Write a list of lists into a file using a comma-separated values format. Outer list represents rows, inner lists represent columns.\n\nData.ExportCSV (filePath: string, data: var[][]): void"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
+      "Id": "98fbfb20c500474c829a1619454a8744",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "b4b62a5db4e24914aa00240cb93e507c",
+          "Name": "",
+          "Description": "File Path",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows you to select a file on the system and returns its file path",
+      "HintPath": "C:\\Users\\lucam\\Desktop\\entangl\\all.json",
+      "InputValue": ".\\all.json"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "e928b84082594cb4844b35df2410e215",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "ed4000f6b58348d2a481720d8faf8d7e",
+          "Name": "list1",
+          "Description": "List of objects to be included\n\nvar[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "be885bb6fe434ec8a024bc47bc95df3a",
+          "Name": "list2",
+          "Description": "List of objects to be included to List1\n\nvar[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "89b3f714095046799c2978e28bc37725",
+          "Name": "list",
+          "Description": "The new list that contains objects that are either in List1 or List2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "DSCore.List.SetUnion@var[],var[]",
+      "Replication": "Auto",
+      "Description": "Returns a new list that includes objects that are present in either List1 or List2.\n\nList.SetUnion (list1: var[], list2: var[]): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction, DynamoCore",
+      "FunctionSignature": "DSCore.String.Join@string,string[]",
+      "FunctionType": "VariableArgument",
+      "Id": "503081a0840644a2ad83e55e1329e1f1",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "ce1af85c3c404ac9b014a0c067a4cca0",
+          "Name": "separator",
+          "Description": "String to be inserted between joined strings.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "944a0dbdfd894bb695874c950fe623ad",
+          "Name": "string0",
+          "Description": "Strings to be joined into a single string.\n\nstring[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "bb0b64b093024360b1fce834e40cc51d",
+          "Name": "string",
+          "Description": "A string made from the list of strings including the separator character.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Concatenates multiple strings into a single string, inserting the given separator between each joined string.\n\nString.Join (separator: string, strings: string[]): string"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction, DynamoCore",
+      "FunctionSignature": "DSCore.List.Join@var[]..[]",
+      "FunctionType": "VariableArgument",
+      "Id": "541ac8ebe3eb4d79a5d63a99d598b02e",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "f59c348d89794961809071605ffe7ba3",
+          "Name": "list0",
+          "Description": "Lists to join into one.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "1eab4019642c4fdaaf2de853e206a4ea",
+          "Name": "list",
+          "Description": "Joined list.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Concatenates all given lists into a single list.\n\nList.Join (lists: var[]..[]): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "1fee938acc9a4d9d97f887cab5c5d476",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "09d57a94102545bea5ce0d1f757c3e19",
+          "Name": "filePath",
+          "Description": "Path to write to\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "3952f27a588c4a1b8de5ce50a6d3cb00",
+          "Name": "data",
+          "Description": "List of lists to write into CSV\n\nvar[][]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "109b9cdeaa494f8d87f8f53ed359493a",
+          "Name": "void",
+          "Description": "void",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "DSOffice.Data.ExportCSV@string,var[][]",
+      "Replication": "Auto",
+      "Description": "Write a list of lists into a file using a comma-separated values format. Outer list represents rows, inner lists represent columns.\n\nData.ExportCSV (filePath: string, data: var[][]): void"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.FromArray, CoreNodeModels",
+      "Id": "5261a11a12c04c5cbb303eb39021d491",
+      "NodeType": "ExtensionNode",
+      "Inputs": [
+        {
+          "Id": "f3bc919dd58d40b5ae6225e6b34f4cdf",
+          "Name": "array",
+          "Description": "The array of object to be serialized",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "97a7e73e5def488394562481c7e802e0",
+          "Name": "string",
+          "Description": "String representation of the array",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Converts an array to a string representation"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "8251fb0ce9a3407ba7c81fc0d5dc2f4c",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "895c7bdc0f2e46b9a30d0cabdea4ffbb",
+          "Name": "values",
+          "Description": "A List of values\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "1b18fa7d50d348528420847801d8aef6",
+          "Name": "json",
+          "Description": "A JSON string where primitive types (e.g. double, int, boolean), Lists, and Dictionary's will be turned into the associated JSON type.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "DSCore.Data.StringifyJSON@var[]..[]",
+      "Replication": "Auto",
+      "Description": "Stringify converts an arbitrary value or a list of arbitrary values to JSON. Replication can be used to apply the operation over a list, producing a list of JSON strings.\n\nData.StringifyJSON (values: var[]..[]): string"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "d054a466689d401a9c557d8ddf14ebfc",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "e1bc629408894e87a6339d0b870e0201",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "0e67325ddba447eab840ccaf92bca98d",
+          "Name": "Parameter[]",
+          "Description": "Parameter[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "Revit.Elements.Element.Parameters",
+      "Replication": "Auto",
+      "Description": "Obtain all of the Parameters from an Element, sorted by Name.\n\nElement.Parameters: Parameter[]"
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.ElementsOfCategory, DSRevitNodesUI",
+      "Id": "2ffc3b9056f0486d9befc36c1d515557",
+      "NodeType": "ExtensionNode",
+      "Inputs": [
+        {
+          "Id": "79f6c0b373a942298c988fb8fd270c29",
+          "Name": "Category",
+          "Description": "The Category",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "d9fde57456764e679f4647dce736d16a",
+          "Name": "Elements",
+          "Description": "An element class.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Get all elements of the specified category from the model."
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "513f40b41d224fe4b25022a773412989",
+      "End": "79f6c0b373a942298c988fb8fd270c29",
+      "Id": "b87b40d1ee7e42178f4e6ae77a9278be",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "2ca160a85bf94b65a0e9596a76e0bece",
+      "End": "e927138cecf745479fea6ced772e9cd2",
+      "Id": "9464993213e743759876c368a1a10e2a",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "73d9e610ccb0475d80b13065ec135510",
+      "End": "769e8c4844f04d419185d6f9e3776642",
+      "Id": "2d239716c6d7497895c3f071d199a76e",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "73d9e610ccb0475d80b13065ec135510",
+      "End": "09d57a94102545bea5ce0d1f757c3e19",
+      "Id": "6cd65625e3494373a148da76ad900163",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "d8186d610452422dae9c41c19cdd9363",
+      "End": "3b04bd9670c84ec8bf25c997cd4dab22",
+      "Id": "6032cf8abd4d4158a70d3398e3e95f48",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "e45a7ecf94e54bac854d1e09cefaeb17",
+      "End": "6f620b635ee74f1281b32cb47e501e1c",
+      "Id": "7c61e290fa7f42be8583764cc4cada11",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "97a7e73e5def488394562481c7e802e0",
+      "End": "895c7bdc0f2e46b9a30d0cabdea4ffbb",
+      "Id": "142338e1fd1743319e98b46428de4d78",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "1b18fa7d50d348528420847801d8aef6",
+      "End": "3952f27a588c4a1b8de5ce50a6d3cb00",
+      "Id": "f76733a214b0419e8f4d5ba1edd46e44",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "0e67325ddba447eab840ccaf92bca98d",
+      "End": "f3bc919dd58d40b5ae6225e6b34f4cdf",
+      "Id": "7113c7b4065a49c989022e03cd7f614e",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "d9fde57456764e679f4647dce736d16a",
+      "End": "e1bc629408894e87a6339d0b870e0201",
+      "Id": "5d9357020c6c431dbfff00d7d6f62201",
+      "IsHidden": "False"
+    }
+  ],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [
+    {
+      "Name": "params.csv",
+      "ReferenceType": "External",
+      "Nodes": [
+        "3dd0db69d7364c2c86dd89eebeed0211"
+      ]
+    },
+    {
+      "Name": "all.json",
+      "ReferenceType": "External",
+      "Nodes": [
+        "98fbfb20c500474c829a1619454a8744"
+      ]
+    }
+  ],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.19",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "6.1",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.19.3.6394",
+      "RunType": "Automatic",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "_Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "ConnectorPins": [],
+    "NodeViews": [
+      {
+        "Id": "30bf6c9f80c64add871f50aea3ea0d1b",
+        "Name": "Categories",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 22.0,
+        "Y": 75.5
+      },
+      {
+        "Id": "89959b54f675453bb6023fce63cf5325",
+        "Name": "Categories",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 17.27399420648635,
+        "Y": 325.71882831081541
+      },
+      {
+        "Id": "3dd0db69d7364c2c86dd89eebeed0211",
+        "Name": "File Path",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1341.7506085921743,
+        "Y": -158.79735431944374
+      },
+      {
+        "Id": "2e72325d818c4a7ab8708faa1145785f",
+        "Name": "All Elements of Category",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 507.91725809533068,
+        "Y": 367.11390805845127
+      },
+      {
+        "Id": "2f4d2270575d4537b9d73aa44c542289",
+        "Name": "Element.Parameters",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 792.06040704027782,
+        "Y": 370.66030674220468
+      },
+      {
+        "Id": "a538c0cc7b914f26afd58e7fb2dab981",
+        "Name": "String from Array",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1077.3449429673738,
+        "Y": 370.18458750055908
+      },
+      {
+        "Id": "25eccc7727d74604bca14ff4e86622e3",
+        "Name": "Data.ExportCSV",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1896.699777891793,
+        "Y": 361.39582703613945
+      },
+      {
+        "Id": "98fbfb20c500474c829a1619454a8744",
+        "Name": "File Path",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1964.3984130764793,
+        "Y": 211.70042040896072
+      },
+      {
+        "Id": "e928b84082594cb4844b35df2410e215",
+        "Name": "List.SetUnion",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1209.0137571725793,
+        "Y": 754.47280066676944
+      },
+      {
+        "Id": "503081a0840644a2ad83e55e1329e1f1",
+        "Name": "String.Join",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1332.6406415355075,
+        "Y": 586.84312695432413
+      },
+      {
+        "Id": "541ac8ebe3eb4d79a5d63a99d598b02e",
+        "Name": "List.Join",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1413.312422009622,
+        "Y": 281.96665788981431
+      },
+      {
+        "Id": "1fee938acc9a4d9d97f887cab5c5d476",
+        "Name": "Data.ExportCSV",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1591.65644544698,
+        "Y": 53.7598928747525
+      },
+      {
+        "Id": "5261a11a12c04c5cbb303eb39021d491",
+        "Name": "String from Array",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1084.51187781199,
+        "Y": 82.454677092525
+      },
+      {
+        "Id": "8251fb0ce9a3407ba7c81fc0d5dc2f4c",
+        "Name": "Data.StringifyJSON",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1321.80778472518,
+        "Y": 80.0211971239426
+      },
+      {
+        "Id": "d054a466689d401a9c557d8ddf14ebfc",
+        "Name": "Element.Parameters",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 799.227341884894,
+        "Y": 82.9303963341706
+      },
+      {
+        "Id": "2ffc3b9056f0486d9befc36c1d515557",
+        "Name": "All Elements of Category",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 515.084192939947,
+        "Y": 79.3839976504172
+      }
+    ],
+    "Annotations": [],
+    "X": -423.20967756681284,
+    "Y": 263.14282259187547,
+    "Zoom": 0.95448494563359132
+  }
+}

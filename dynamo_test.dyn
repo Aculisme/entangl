@@ -1,0 +1,499 @@
+{
+  "Uuid": "d2903563-d8ff-4e44-9195-275c432dd06a",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "dynamo_test",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "DSRevitNodesUI.ElementsAtLevel, DSRevitNodesUI",
+      "Id": "2341c492972949af8a3f529813d0a1c8",
+      "NodeType": "ExtensionNode",
+      "Inputs": [
+        {
+          "Id": "816eb54058be445aaae77ac7f46a1a1f",
+          "Name": "Level",
+          "Description": "A Level",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "89661ee3d0ad4f669e10d173e3bcbc30",
+          "Name": "Elements",
+          "Description": "Elements at the given level.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Get all the elements at the specified Level from the model."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "WatchWidth": 200.0,
+      "WatchHeight": 200.0,
+      "Id": "15c3d77a3f134ed287bc8cd7bdfffb77",
+      "NodeType": "ExtensionNode",
+      "Inputs": [
+        {
+          "Id": "0907918d1fb548e19cbbb1d9838098b5",
+          "Name": "",
+          "Description": "Node to show output from",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "16091ff3882a4a428f1b4489b5757e5d",
+          "Name": "",
+          "Description": "Node output",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualizes a node's output"
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Levels, DSRevitNodesUI",
+      "SelectedIndex": 9,
+      "SelectedString": "L4",
+      "Id": "51e9af1f26e74cdfb4b289b50b83f1b9",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "d6f94a5927584a3cbc276dee70ed7984",
+          "Name": "Levels",
+          "Description": "The selected Levels",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Select a level in the active document"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "c02702364e8549fe9829c2140a378b45",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "4a105199584042f5886405f7c6a98e76",
+          "Name": "initialValue",
+          "Description": "initial value for loop\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "92657b54b0094fce897cec320497782e",
+          "Name": "continueWhile",
+          "Description": "while loop condition\n\nFunction",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "dc2e60522c3647b69da087c8358df56b",
+          "Name": "loopBody",
+          "Description": "while loop body\n\nFunction",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "ba654a048181409a90ce9e996c8d5898",
+          "Name": "result",
+          "Description": "Result from loop (type: var[]..[])",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "LoopWhile@var[]..[],Function,Function",
+      "Replication": "Auto",
+      "Description": "Constructs a while loop node given an initial value, a condition and a loop body.\n\nLoopWhile (initialValue: var[]..[], continueWhile: Function, loopBody: Function): var[]..[]"
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 135,
+      "SelectedString": "OST_Columns",
+      "Id": "c53d9ba478cb4308a28b71e160918559",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "edc1524a2e2f4cfcb09546ddafb07132",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "WatchWidth": 72.0,
+      "WatchHeight": 38.0,
+      "Id": "99b26c01540b4c2a9a051453709d6b33",
+      "NodeType": "ExtensionNode",
+      "Inputs": [
+        {
+          "Id": "30e5efd64d2d4eb4b1f413f76ce9c0b2",
+          "Name": "",
+          "Description": "Node to show output from",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "a005083ae4df4a688305f396667d2a48",
+          "Name": "",
+          "Description": "Node output",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualizes a node's output"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
+      "Id": "7d373357d3d34314bfa374afea463758",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "ae31271053464c66857bfd0ce8a76b99",
+          "Name": "",
+          "Description": "File Path",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows you to select a file on the system and returns its file path",
+      "HintPath": "C:\\Users\\lucam\\Desktop\\entangl\\export_dynamo.csv",
+      "InputValue": "C:\\Users\\lucam\\Desktop\\entangl\\export_dynamo.csv"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "31bb93e43ca54cfc8eebd1df8b5dd22d",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "e815c93d4a11462eadef1f172c7155ea",
+          "Name": "filePath",
+          "Description": "Path to write to\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "904e29afee654d3ca4a5fba701fbc504",
+          "Name": "data",
+          "Description": "List of lists to write into CSV\n\nvar[][]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "2c9706050b6b4cbda805dc13d14c50c1",
+          "Name": "void",
+          "Description": "void",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "DSOffice.Data.ExportCSV@string,var[][]",
+      "Replication": "Auto",
+      "Description": "Write a list of lists into a file using a comma-separated values format. Outer list represents rows, inner lists represent columns.\n\nData.ExportCSV (filePath: string, data: var[][]): void"
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.ElementsOfType, DSRevitNodesUI",
+      "Id": "4f1ffa1618744c85ab063aa34d13da32",
+      "NodeType": "ExtensionNode",
+      "Inputs": [
+        {
+          "Id": "6f4583a80dac4bfebe1e11a1269ac43d",
+          "Name": "element class",
+          "Description": "An element class.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "81bfbf13e67b4a16bfb8e5c4d0eff109",
+          "Name": "elements",
+          "Description": "All elements in the active document of a given class.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All elements in the active document of a given class."
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.ElementTypes, DSRevitNodesUI",
+      "SelectedIndex": -1,
+      "SelectedString": "",
+      "Id": "7ece3ad0b4c7482a81d1a61e724a4818",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "a46a37dccb274828b53be6fc9017d192",
+          "Name": "Classes",
+          "Description": "The selected Classes",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All element subclasses."
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "89661ee3d0ad4f669e10d173e3bcbc30",
+      "End": "0907918d1fb548e19cbbb1d9838098b5",
+      "Id": "4490b6e438884c57b75839490d82b61b",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "16091ff3882a4a428f1b4489b5757e5d",
+      "End": "904e29afee654d3ca4a5fba701fbc504",
+      "Id": "b85b77713d8640beac0b58a07c113328",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "d6f94a5927584a3cbc276dee70ed7984",
+      "End": "816eb54058be445aaae77ac7f46a1a1f",
+      "Id": "098a7702af4c4204ae1698774832dddc",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "edc1524a2e2f4cfcb09546ddafb07132",
+      "End": "30e5efd64d2d4eb4b1f413f76ce9c0b2",
+      "Id": "27b0946ea3824a30be262bbcdafa2ec5",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "ae31271053464c66857bfd0ce8a76b99",
+      "End": "e815c93d4a11462eadef1f172c7155ea",
+      "Id": "a28cdea02888483193e850c34dc88421",
+      "IsHidden": "False"
+    }
+  ],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [
+    {
+      "Name": "export_dynamo.csv",
+      "ReferenceType": "External",
+      "Nodes": [
+        "7d373357d3d34314bfa374afea463758"
+      ]
+    }
+  ],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.19",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "6.1",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.19.3.6394",
+      "RunType": "Automatic",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "_Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "ConnectorPins": [],
+    "NodeViews": [
+      {
+        "Id": "2341c492972949af8a3f529813d0a1c8",
+        "Name": "All Elements at Level",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 641.5,
+        "Y": 445.0
+      },
+      {
+        "Id": "15c3d77a3f134ed287bc8cd7bdfffb77",
+        "Name": "Watch",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 926.5,
+        "Y": 584.0
+      },
+      {
+        "Id": "51e9af1f26e74cdfb4b289b50b83f1b9",
+        "Name": "Levels",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 277.5,
+        "Y": 413.0
+      },
+      {
+        "Id": "c02702364e8549fe9829c2140a378b45",
+        "Name": "LoopWhile",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 279.5,
+        "Y": 562.0
+      },
+      {
+        "Id": "c53d9ba478cb4308a28b71e160918559",
+        "Name": "Categories",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 427.5,
+        "Y": 207.0
+      },
+      {
+        "Id": "99b26c01540b4c2a9a051453709d6b33",
+        "Name": "Watch",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 740.5,
+        "Y": 215.0
+      },
+      {
+        "Id": "7d373357d3d34314bfa374afea463758",
+        "Name": "File Path",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1022.5,
+        "Y": 224.0
+      },
+      {
+        "Id": "31bb93e43ca54cfc8eebd1df8b5dd22d",
+        "Name": "Data.ExportCSV",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1421.5,
+        "Y": 460.0
+      },
+      {
+        "Id": "4f1ffa1618744c85ab063aa34d13da32",
+        "Name": "All Elements of Class",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1026.5,
+        "Y": 443.0
+      },
+      {
+        "Id": "7ece3ad0b4c7482a81d1a61e724a4818",
+        "Name": "Element Classes",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1316.5,
+        "Y": 674.0
+      }
+    ],
+    "Annotations": [],
+    "X": -268.0,
+    "Y": 60.0,
+    "Zoom": 1.0
+  }
+}
