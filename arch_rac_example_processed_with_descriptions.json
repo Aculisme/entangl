@@ -281,7 +281,8 @@
       "Volume": "0.1540259999999749",
       "Category": "Windows",
       "Level": "Level(Name=Level 2, Elevation=3000)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with a rough width of 1500 mm and height of 2700 mm, featuring materials of glass, black walnut wood, and anodized black aluminum, installed in a wall at Level 2 with a head height of 2700 mm and a sill height of 0 mm."
     },
     {
       "IfcGUID": "1ikhyTwD17yAnDcdaZ57O9",
@@ -300,7 +301,8 @@
       "Volume": "0.1540259999999749",
       "Category": "Windows",
       "Level": "Level(Name=Level 2, Elevation=3000)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with a rough width of 1500 mm and height of 2700 mm, featuring a glass pane framed in anodized black aluminum and walnut wood, located in a wall at Level 2 (elevation 3000 mm)."
     },
     {
       "IfcGUID": "1ikhyTwD17yAnDcdaZ57Pn",
@@ -319,7 +321,8 @@
       "Volume": "0.1540259999999749",
       "Category": "Windows",
       "Level": "Level(Name=Level 2, Elevation=3000)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A single window with a rough width of 1500 mm and a height of 2700 mm, featuring glass, black walnut wood, and anodized black aluminum, located in a wall at Level 2."
     },
     {
       "IfcGUID": "0ELdlxJuP1AwzgUXpRT7iS",
@@ -338,7 +341,8 @@
       "Volume": "0.1540259999999749",
       "Category": "Windows",
       "Level": "Level(Name=Level 2, Elevation=3000)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with dimensions 1500mm x 2700mm, featuring a glass pane and a wood-walnut black frame, installed at Level 2 with a head height of 2700mm and a sill height of 0mm."
     },
     {
       "IfcGUID": "12QTT5rufCoeOFfLiN060S",
@@ -352,7 +356,8 @@
       "Volume": "0.04199918304494646",
       "Category": "Windows",
       "Level": "",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This component is a 1180 x 1170mm skylight made of glass and anodized black aluminum, categorized under windows with an area of 2.73 m\u00b2 and a volume of 0.042 m\u00b3."
     },
     {
       "IfcGUID": "12QTT5rufCoeOFfLiN06FB",
@@ -366,7 +371,8 @@
       "Volume": "0.04199918304494646",
       "Category": "Windows",
       "Level": "",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This component is a 1180 x 1170mm skylight made of glass and anodized black aluminum, categorized under windows, with an area of 2.73 m\u00b2."
     },
     {
       "IfcGUID": "1jq3WIaE92UPTHNxmrWmzx",
@@ -385,7 +391,8 @@
       "Volume": "0.1540259999999749",
       "Category": "Windows",
       "Level": "Level(Name=Level 2, Elevation=3000)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with dimensions of 1500mm width and 2700mm height, featuring materials of glass, walnut wood, and anodized black aluminum, located on Level 2 at a head height of 2700mm."
     },
     {
       "IfcGUID": "0c0us5oRfBJgddHOG86fE2",
@@ -404,7 +411,8 @@
       "Volume": "0.1540259999999749",
       "Category": "Windows",
       "Level": "Level(Name=Level 2, Elevation=3000)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A single window with a rough width of 1500 mm and height of 2700 mm, featuring glass, walnut black wood, and anodized black aluminum materials, installed in a wall at Level 2 (elevation 3000 mm)."
     },
     {
       "IfcGUID": "2Lyq8QMkH4ges0Q77HE131",
@@ -423,7 +431,8 @@
       "Volume": "0.1540259999999749",
       "Category": "Windows",
       "Level": "Level(Name=Level 2, Elevation=3000)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with a rough width of 1500 mm and height of 2700 mm, featuring glass, walnut black wood, and anodized black aluminum materials, located on Level 2 at a head height of 2700 mm."
     },
     {
       "IfcGUID": "20nhVaBTTAJguMI9o6oD2l",
@@ -442,7 +451,8 @@
       "Volume": "0.15582599999996738",
       "Category": "Windows",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with clear glazing and anodized black aluminum framing, measuring 1500mm in width and 2700mm in height, installed in the wall at Level 1 Living Room with a sill height of 0mm."
     },
     {
       "IfcGUID": "20nhVaBTTAJguMI9o6oD5Q",
@@ -461,7 +471,8 @@
       "Volume": "0.15582599999996738",
       "Category": "Windows",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with a rough width of 1500 mm and rough height of 2700 mm, featuring glass, walnut black wood, and anodized black aluminum materials, positioned at sill height 0 mm on Level 1 Living Room."
     },
     {
       "IfcGUID": "20nhVaBTTAJguMI9o6oD4T",
@@ -480,7 +491,8 @@
       "Volume": "0.15582599999996738",
       "Category": "Windows",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with a rough width of 1500 mm and height of 2700 mm, featuring materials such as glass, walnut black wood, and anodized black aluminum, located in the living room at Level 1."
     },
     {
       "IfcGUID": "20nhVaBTTAJguMI9o6oDQ8",
@@ -499,7 +511,8 @@
       "Volume": "0.15582599999996738",
       "Category": "Windows",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with a rough width of 1500 mm and height of 2700 mm, featuring glass, walnut black wood, and anodized black aluminum materials, located in the Level 1 Living Room."
     },
     {
       "IfcGUID": "20nhVaBTTAJguMI9o6oBQ8",
@@ -518,7 +531,8 @@
       "Volume": "0.15582599999996744",
       "Category": "Windows",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with a rough dimension of 1500mm width by 2700mm height, featuring glass, walnut black wood, and anodized black aluminum materials, installed in a wall at Level 1 Living Room with a head height of 2700mm and a sill height of 0mm."
     },
     {
       "IfcGUID": "20nhVaBTTAJguMI9o6oBQ9",
@@ -537,7 +551,8 @@
       "Volume": "0.15582599999996744",
       "Category": "Windows",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window made of glass, walnut black wood, and anodized black aluminum, with dimensions of 1500mm width and 2700mm height, located in the Level 1 Living Room."
     },
     {
       "IfcGUID": "20nhVaBTTAJguMI9o6oBQE",
@@ -556,7 +571,8 @@
       "Volume": "0.15582599999996744",
       "Category": "Windows",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window, featuring a rough width of 1500 mm and a height of 2700 mm, constructed from glass, walnut black wood, and anodized black aluminum, located in the Level 1 Living Room."
     },
     {
       "IfcGUID": "20nhVaBTTAJguMI9o6oBQF",
@@ -575,7 +591,8 @@
       "Volume": "0.15582599999996744",
       "Category": "Windows",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A standard single window with a rough width of 1500 mm and a rough height of 2700 mm, featuring glass, walnut black wood, and anodized black aluminum materials, installed at sill height 0 mm and head height 2700 mm on Level 1 of the living room."
     }
   ],
   "Walls": [
@@ -597,7 +614,8 @@
       "Volume": "4.5157079105278415",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of 3300 mm, is composed of various materials including plasterboard, wood, and insulated panels, has a length of approximately 6202 mm, and is categorized as room bounding within the project."
     },
     {
       "IfcGUID": "3lLx0gNe59vvExhby0Bff1",
@@ -617,7 +635,8 @@
       "Volume": "1.214013485500302",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type, with a height of 3000 mm and a length of approximately 4580 mm, consists of an interior plasterboard finish, a wood stud layer, and a timber insulated panel structure with insulation and OSB, topped with exterior timber cladding, and is room bounding."
     },
     {
       "IfcGUID": "28i3i5WDD8Ju0YHnzXOzdu",
@@ -637,7 +656,8 @@
       "Volume": "4.33785064853583",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of 3446 mm, constructed with a combination of plasterboard finishes, a wood stud layer, and timber insulated panels for insulation and OSB, capped with timber cladding on the exterior, and is room bounding with a total area of 21.47 m\u00b2."
     },
     {
       "IfcGUID": "1oPutv5ADAxgWEbAZbN6Wv",
@@ -657,7 +677,8 @@
       "Volume": "1.745279999999977",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of approximately 2700 mm and a length of 3200 mm, constructed with an interior plasterboard finish, wood stud layer, and timber insulated panels, while also providing room bounding capabilities."
     },
     {
       "IfcGUID": "1PDnLIM013wvkZO9Lb4$wc",
@@ -677,7 +698,8 @@
       "Volume": "1.209030599999929",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of 2700 mm, is constructed with interior plasterboard finishes, a wood stud layer, and timber insulated panels with OSB and insulation, while clad with exterior timber, and spans a length of 3041 mm, making it room bounding."
     },
     {
       "IfcGUID": "1PDnLIM013wvkZO9Lb4$j_",
@@ -690,7 +712,8 @@
       "Area": "17.099999999999707",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 2999.99 mm long wall type with an unconnected height of 5700 mm, constrained between Level 1 at elevation 0 and Roof Line at elevation 6000, serving as a room bounding element."
     },
     {
       "IfcGUID": "1PDnLIM013wvkZO9Lb4$GV",
@@ -707,7 +730,8 @@
       "Volume": "0.988173029999941",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of 2700 mm, constructed with a wood stud layer and finished with gypsum wall board, with a total length of 3041 mm, area of approximately 5.99 m\u00b2, and volume of 0.99 m\u00b3, serving as a room bounding element."
     },
     {
       "IfcGUID": "1$p8tACJ938vr1_lKOJJ0t",
@@ -724,7 +748,8 @@
       "Volume": "1.058659172999978",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type, constructed with a wood stud layer and finished with gypsum wall board, has a length of 2558.45 mm, an unconnected height of 2700 mm, and is room bounding."
     },
     {
       "IfcGUID": "38NblWsDL1I8DljLvn67Sd",
@@ -744,7 +769,8 @@
       "Volume": "12.343371600000307",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type, comprising finishes of interior plasterboard and exterior timber cladding, features a height of 3900 mm, spans 19822 mm in length, and is constructed with timber insulated panels, making it room bounding with a total area of 61.11 m\u00b2 and a volume of 12.34 m\u00b3."
     },
     {
       "IfcGUID": "38NblWsDL1I8DljLvn67bV",
@@ -764,7 +790,8 @@
       "Volume": "8.094845644640861",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 33-meter tall wall composed of plasterboard finishes, wood stud layers, timber insulated panels with insulation and OSB, and a sand/cement screed, serving as a room bounding element between Level 2 and the Roof Line."
     },
     {
       "IfcGUID": "38NblWsDL1I8DljLvn67cw",
@@ -784,7 +811,8 @@
       "Volume": "8.150024863221773",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type, constructed with a combination of plasterboard finishes, wood stud layers, and timber insulated panels, spans a length of 19,702 mm and has an unconnected height of 3,500 mm, making it suitable for room bounding applications between Level 2 at an elevation of 3,000 mm and the Roof Line at 6,000 mm."
     },
     {
       "IfcGUID": "38NblWsDL1I8DljLvn67cE",
@@ -797,7 +825,8 @@
       "Area": "26.485096468274943",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 3000 mm high wall type with a length of approximately 6202 mm, located between Level 2 and the Roof Line, and designated as room bounding."
     },
     {
       "IfcGUID": "0lntrd6l1AGwfcnKJK5r28",
@@ -814,7 +843,8 @@
       "Volume": "2.9766115761929948",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of 3000 mm, constructed with wood stud layers and finished with gypsum wall board, spanning approximately 6202 mm in length, and is designed to be room bounding."
     },
     {
       "IfcGUID": "0lntrd6l1AGwfcnKJK5r3q",
@@ -831,7 +861,8 @@
       "Volume": "4.468133060274527",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type, constructed with a wood stud layer and interior gypsum wall board finishes, features an unconnected height of 3000 mm, spans a length of 11380 mm, and is positioned between Level 2 and the Roof Line, making it room bounding."
     },
     {
       "IfcGUID": "0lntrd6l1AGwfcnKJK5q$g",
@@ -848,7 +879,8 @@
       "Volume": "1.5630522891350538",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type, constructed with a wood stud layer and finished with gypsum wall board, has an unconnected height of 3000 mm, spans approximately 2824 mm in length, and is located between Level 2 and the Roof Line, making it room bounding with an area of 13.03 m\u00b2 and a volume of 1.56 m\u00b3."
     },
     {
       "IfcGUID": "0lntrd6l1AGwfcnKJK5quT",
@@ -865,7 +897,8 @@
       "Volume": "1.5191937745218271",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 3000 mm high wood stud wall with gypsum wall board finishes, spanning 2880 mm in length and serving as a room bounding element."
     },
     {
       "IfcGUID": "0lntrd6l1AGwfcnKJK5qv8",
@@ -882,7 +915,8 @@
       "Volume": "0.7974954374202132",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of 3000 mm, constructed with a wood stud layer and finished with gypsum wall board, spanning approximately 2157 mm in length, and is designed to be room bounding."
     },
     {
       "IfcGUID": "0lntrd6l1AGwfcnKJK5qmF",
@@ -899,7 +933,8 @@
       "Volume": "2.221804498328228",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This component is a wall type with a height of 3000 mm, constructed from a wood stud layer and finished with gypsum wall board, spanning approximately 4661 mm in length and serving as a room bounding element between Level 2 and the Roof Line."
     },
     {
       "IfcGUID": "0NWseyvsH7_gBW225aGtuD",
@@ -915,7 +950,8 @@
       "Volume": "6.801272563111698",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": ""
+      "Comments": "",
+      "Description Human-Readable": "A 3,500 mm high wall type made of CL concrete panels, spanning 9,628 mm in length, with an area of 24.78 m\u00b2 and volume of 6.80 m\u00b3, situated between Level 1 and Level 2, and designated as room bounding."
     },
     {
       "IfcGUID": "0NWseyvsH7_gBW225aGtwW",
@@ -931,7 +967,8 @@
       "Volume": "20.833247003954767",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": ""
+      "Comments": "",
+      "Description Human-Readable": "A wall type constructed from CL concrete panels, with an unconnected height of 3500 mm, spanning a length of 21026 mm, and bounded between Level 1 and Level 2, occupying an area of 74.56 m\u00b2 and a volume of 20.83 m\u00b3."
     },
     {
       "IfcGUID": "0NWseyvsH7_gBW225aGtx$",
@@ -947,7 +984,8 @@
       "Volume": "15.451401353877966",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": ""
+      "Comments": "",
+      "Description Human-Readable": "This component is a wall type made of CL concrete panels with an unconnected height of 3500 mm, spanning a length of 15750 mm, and is room bounding, positioned between Level 1 at an elevation of 0 mm and Level 2 at an elevation of 3000 mm."
     },
     {
       "IfcGUID": "0NWseyvsH7_gBW225aGtyM",
@@ -963,7 +1001,8 @@
       "Volume": "9.061987529618479",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": ""
+      "Comments": "",
+      "Description Human-Readable": "This component is a cast-in-situ concrete wall type with a height of 3500 mm, spanning a length of 8946.55 mm, and is located between Level 1 and Level 2."
     },
     {
       "IfcGUID": "1jq3WIaE92UPTHNxmrWm6f",
@@ -980,7 +1019,8 @@
       "Volume": "1.609869146034873",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 3000mm high wood stud wall with gypsum wall board finishes, spanning 2440mm in length, categorized under Walls and designed as room bounding."
     },
     {
       "IfcGUID": "2MWqvKy9535viQk_YsG9eF",
@@ -997,7 +1037,8 @@
       "Volume": "0.7275682137089425",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 3000 mm high wood stud wall with gypsum wall board finishes, spanning 1200 mm in length and serving as a room bounding element between Level 2 and the Roof Line."
     },
     {
       "IfcGUID": "2MWqvKy9535viQk_YsG9km",
@@ -1014,7 +1055,8 @@
       "Volume": "0.5981487455759068",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type, constructed with a wood stud layer and finished with gypsum wall board, has an unconnected height of 3000 mm, spans a length of 1020 mm, and is located between Level 2 and the Roof Line, making it room bounding."
     },
     {
       "IfcGUID": "39NeMDaWPEh9g8$CxWwg0v",
@@ -1034,7 +1076,8 @@
       "Volume": "1.1945410480981131",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A wall type component with a height of 3300 mm, constructed from multiple materials including plasterboard, timber insulated panels, and concrete, spanning a length of approximately 6202 mm, and serving as a room bounding element between Level 2 and the Roof Line."
     },
     {
       "IfcGUID": "3_T6_Ndub6XO_ef59N4DQX",
@@ -1050,7 +1093,8 @@
       "Volume": "7.598999999999954",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A cast-in-situ concrete wall with a height of 3400 mm, length of approximately 7150 mm, and area of 25.33 m\u00b2, located at Level 2 (elevation 3000 mm), designed to be room bounding."
     },
     {
       "IfcGUID": "3_T6_Ndub6XO_ef59N4DRY",
@@ -1066,7 +1110,8 @@
       "Volume": "13.976040000000053",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Concrete cast-in-situ wall type with an unconnected height of 3400 mm, length of 13702 mm, and volume of approximately 13.98 m\u00b3, located at Level 2 with elevation 3000 mm, and room bounding."
     },
     {
       "IfcGUID": "3_T6_Ndub6XO_ef59N4DOF",
@@ -1082,7 +1127,8 @@
       "Volume": "4.232999999999933",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A cast-in-situ concrete wall type with an unconnected height of 3400 mm, length of approximately 4150 mm, and room bounding properties, located at Level 2 with an elevation of 3000 mm."
     },
     {
       "IfcGUID": "1RUi90wQT3ihQ$96bMNGiu",
@@ -1098,7 +1144,8 @@
       "Volume": "10.25220000000001",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 1500 mm high wall of CL Concrete panels, with a length of 24690 mm, located at Level 1, and room bounding."
     },
     {
       "IfcGUID": "1RUi90wQT3ihQ$96bMNGvH",
@@ -1114,7 +1161,8 @@
       "Volume": "2.6868917163002206",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 1500mm high wall type made of CL concrete panels, with a length of approximately 6723mm, located at Level 1, and is room bounding."
     },
     {
       "IfcGUID": "1RUi90wQT3ihQ$96bMNGrh",
@@ -1130,7 +1178,8 @@
       "Volume": "7.7322",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This component is a wall type made of CL Concrete panels, measuring 18,449 mm in length and 1,500 mm in height, with a room bounding ability and a total volume of 7.7322 m\u00b3."
     },
     {
       "IfcGUID": "27lifGE4TF58A1JhY9194T",
@@ -1150,7 +1199,8 @@
       "Volume": "0.6665999999999989",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of approximately 5500 mm, is constructed with a combination of plasterboard finishes, timber stud layers, and insulated timber panels, and spans a length of 6202 mm, serving as a room bounding element between the ceiling and Level 2."
     },
     {
       "IfcGUID": "1LMg1ZkATBJwu7hODVWkYe",
@@ -1163,7 +1213,8 @@
       "Area": "16.20000000000001",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 6202 mm long wall type with an unconnected height of 2700 mm, constrained between Level 1 Living Room and Ceiling, designed to be room bounding."
     },
     {
       "IfcGUID": "3Yxgiuz3TDpeHhosGP5bD6",
@@ -1176,7 +1227,8 @@
       "Area": "7.866000000000006",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A wall type with an unconnected height of 5700 mm, spanning a length of 1481 mm, and constrained between Level 1 and the Roof Line, designed to be room bounding."
     },
     {
       "IfcGUID": "3Yxgiuz3TDpeHhosGP5b8q",
@@ -1189,7 +1241,8 @@
       "Area": "3.725999999999576",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type has an unconnected height of 2700 mm, spans a length of approximately 1481 mm, is room bounding, and is constrained between Level 2 at an elevation of 3000 mm and the Roof Line at 6000 mm."
     },
     {
       "IfcGUID": "3Yxgiuz3TDpeHhosGP5asn",
@@ -1202,7 +1255,8 @@
       "Area": "7.854300000000043",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A wall type with an unconnected height of 2700 mm, extending 3010 mm in length, located between Level 2 at 3000 mm elevation and the Roof Line at 6000 mm elevation, designed to be room bounding."
     },
     {
       "IfcGUID": "2WEjrPJHb8ux9RBvH$Iq0S",
@@ -1218,7 +1272,8 @@
       "Volume": "7.987199999999974",
       "Room Bounding": "0",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A cast-in-situ concrete wall with a length of 10,240 mm and an unconnected height of 2,600 mm, constrained at Level 2 with an elevation of 3,000 mm."
     },
     {
       "IfcGUID": "2WEjrPJHb8ux9RBvH$Iq3g",
@@ -1234,7 +1289,8 @@
       "Volume": "5.987161110288806",
       "Room Bounding": "0",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This component is a cast-in-situ concrete wall type with an unconnected height of 2600 mm, a length of approximately 7226 mm, and located at Level 2 with an elevation of 3000 mm."
     },
     {
       "IfcGUID": "2WEjrPJHb8ux9RBvH$IqPC",
@@ -1250,7 +1306,8 @@
       "Volume": "4.016999999999983",
       "Room Bounding": "0",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This component is a 5000 mm long, 2600 mm high cast-in-situ concrete wall type, categorized under walls, with an area of 14.07 m\u00b2 and a volume of 4.02 m\u00b3, situated at Level 2 with no top constraint."
     },
     {
       "IfcGUID": "2WEjrPJHb8ux9RBvH$IqQR",
@@ -1266,7 +1323,8 @@
       "Volume": "3.8220000000000085",
       "Room Bounding": "0",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A cast-in-situ concrete wall type with a height of 2600 mm and a length of 5200 mm, located at Level 2 with no top constraint, and an area of approximately 13.42 m\u00b2."
     },
     {
       "IfcGUID": "2WEjrPJHb8ux9RBvH$IqSV",
@@ -1282,7 +1340,8 @@
       "Volume": "5.300691458471727",
       "Room Bounding": "0",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A cast-in-situ concrete wall type with an unconnected height of 2600 mm, a length of approximately 7096 mm, and a volume of 5.3 m\u00b3, positioned at Level 2 with an elevation of 3000 mm."
     },
     {
       "IfcGUID": "38BWtPCUX0VgAKmmGnoLFm",
@@ -1298,7 +1357,8 @@
       "Volume": "2.501699999999998",
       "Room Bounding": "0",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A cast-in-situ concrete wall with a length of 2839.99 mm, an unconnected height of 3100 mm, and constrained at Level 2 with an elevation of 3000 mm."
     },
     {
       "IfcGUID": "38BWtPCUX0VgAKmmGnoLCN",
@@ -1314,7 +1374,8 @@
       "Volume": "2.5016999999999867",
       "Room Bounding": "0",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This component is a cast-in-situ concrete wall type with an unconnected height of 3100 mm, constrained at Level 2 (elevation 3000 mm), measuring approximately 2840 mm in length and 8.34 m\u00b2 in area."
     },
     {
       "IfcGUID": "0nbT7BoYn1WRd0KTefRTuG",
@@ -1331,7 +1392,8 @@
       "Volume": "1.6211528601474525",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 3000 mm high wood stud wall with interior gypsum wall board finishes, measuring 2880 mm in length, designed to be room bounding and constrained between Level 2 and the Roof Line."
     },
     {
       "IfcGUID": "3rPRxvVIT7WRZKOFIc3wXL",
@@ -1351,7 +1413,8 @@
       "Volume": "2.75505780000011",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of 2700 mm, a length of 4700 mm, and is constructed with interior plasterboard finishes, a wood stud layer, and timber insulated panels, making it suitable for room bounding applications."
     },
     {
       "IfcGUID": "2OulbipBrAkwQNv_KJRUgr",
@@ -1364,7 +1427,8 @@
       "Area": "31.854600000001007",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A wall type with a length of 11,899 mm and an unconnected height of 2,700 mm, constrained between Level 1 and Ceiling, and designated as room bounding."
     },
     {
       "IfcGUID": "2OulbipBrAkwQNv_KJRUYY",
@@ -1377,7 +1441,8 @@
       "Area": "16.472700000006924",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 6101 mm long wall type with an unconnected height of 2700 mm, constrained between Level 1 and the Ceiling, and is room bounding."
     },
     {
       "IfcGUID": "2OulbipBrAkwQNv_KJRV9c",
@@ -1397,7 +1462,8 @@
       "Volume": "8.635863600000832",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of 3900mm, a length of 15202mm, and is composed of interior plasterboard finishes, a wood stud layer, insulation within a timber insulated panel, OSB, and exterior timber cladding, while serving as a room bounding element between Level 1 and Level 2."
     },
     {
       "IfcGUID": "2pfAHb2EL46hq_sMVbImEh",
@@ -1414,7 +1480,8 @@
       "Volume": "0.8019402299999638",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A wall type composed of a wood stud layer and interior gypsum wall board finishes, with a height of 2700 mm, length of 1982.55 mm, and categorized as room bounding."
     },
     {
       "IfcGUID": "2wm6PO6TX9IxXwLP21Hz10",
@@ -1431,7 +1498,8 @@
       "Volume": "0.7487779520480253",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A wood-stud wall type with a height of 3000 mm, finished with gypsum wall board, spanning a length of approximately 1837 mm and located between Level 2 and the Roof Line, designed as room bounding."
     },
     {
       "IfcGUID": "2wm6PO6TX9IxXwLP21HynH",
@@ -1448,7 +1516,8 @@
       "Volume": "1.5143348037628557",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A wood-stud wall type with an unconnected height of 3000 mm, finished with gypsum wall board, spanning 2504 mm in length and designed to be room bounding."
     },
     {
       "IfcGUID": "2wm6PO6TX9IxXwLP21Hyl3",
@@ -1465,7 +1534,8 @@
       "Volume": "1.2016017240732373",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 3000 mm high wall type constructed with a wood stud layer and finished with gypsum wall board, measuring approximately 2495 mm in length, serving as a room bounding element between Level 2 and the Roof Line."
     },
     {
       "IfcGUID": "2hD3j_DmLBXxhCCy1gOWbj",
@@ -1482,7 +1552,8 @@
       "Volume": "0.28406400000000376",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features a height of approximately 800 mm, constructed from a wood stud layer and finished with gypsum wall board, spanning nearly 3170 mm in length and designed to be room bounding between the foundation and Level 1."
     },
     {
       "IfcGUID": "2hD3j_DmLBXxhCCy1gOWRm",
@@ -1500,7 +1571,8 @@
       "Volume": "2.6232359999999826",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 3.3m high wall type constructed with a metal stud layer, air gap, and exterior timber cladding, spanning approximately 2.94m in length and designed to be room bounding."
     },
     {
       "IfcGUID": "2hD3j_DmLBXxhCCy1gOWVy",
@@ -1513,7 +1585,8 @@
       "Area": "31.859999999999562",
       "Room Bounding": "1",
       "Category": "Walls",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This wall type features an unconnected height of approximately 2700 mm, spans a length of 11800 mm, and is categorized as a room-bounding wall between Level 1 and Level 2."
     }
   ],
   "Floors": [
@@ -1532,7 +1605,8 @@
       "Perimeter": "48000.0000000007",
       "Category": "Floors",
       "Level": "Level(Name=Level 1, Elevation=0)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 150mm thick Generic floor made of SH_resin, spanning an area of approximately 105.91 m\u00b2 and located at Level 1, with a bottom elevation of -150.0 mm."
     },
     {
       "IfcGUID": "3OLNF2_DL6hfPgh8Bw7fI7",
@@ -1549,7 +1623,8 @@
       "Perimeter": "45610.50408121465",
       "Category": "Floors",
       "Level": "Level(Name=Level 2, Elevation=3000)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Generic 300 floor component made of SH_resin, with a thickness of 300 mm, spanning an area of 100.49 m\u00b2 and positioned between elevations of 2700 mm and 3000 mm on Level 2."
     },
     {
       "IfcGUID": "0NWseyvsH7_gBW225aGtZP",
@@ -1570,7 +1645,8 @@
       "Perimeter": "24819.999999999953",
       "Category": "Floors",
       "Level": "Level(Name=Level 1, Elevation=0)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Concrete Domestic floor with a thickness of 425mm, constructed from cast in situ concrete and rigid insulation, spanning an area of approximately 38.46 m\u00b2 and situated at Level 1 with elevation ranging from -425.0 to 0.0."
     },
     {
       "IfcGUID": "0PSFPzOkvFnf082fy0SVrB",
@@ -1588,7 +1664,8 @@
       "Perimeter": "37396.00000000067",
       "Category": "Floors",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Timber Suspended Floor with a thickness of 247mm, spanning an area of 74.22 m\u00b2, located at an elevation of -550mm above Level 1 Living Room, constructed with timber joist/rafter layer and carpet finish."
     },
     {
       "IfcGUID": "1UXnAYut94jfvp2gf33JX9",
@@ -1605,7 +1682,8 @@
       "Perimeter": "14999.999999999643",
       "Category": "Floors",
       "Level": "Level(Name=Level 2, Elevation=3000)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Generic 300 floor, made of SH_resin, with a thickness of 300 mm, spanning an area of approximately 9 m\u00b2 and located at Level 2 with a bottom elevation of 2700 mm and top elevation of 3000 mm."
     },
     {
       "IfcGUID": "1UXnAYut94jfvp2gf33Js1",
@@ -1622,7 +1700,8 @@
       "Perimeter": "18001.99999999996",
       "Category": "Floors",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Generic 150mm floor made of SH_resin, spanning an area of 18.00 m\u00b2 with a thickness of 150mm, situated between elevations -700.0 and -550.0, and designed as room bounding on Level 1 Living Room."
     },
     {
       "IfcGUID": "1cCK8nA61FduUezO75i8dB",
@@ -1641,7 +1720,8 @@
       "Perimeter": "53163.95315940268",
       "Category": "Floors",
       "Level": "Level(Name=Level 1, Elevation=0)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Insitu Concrete floor with a thickness of 225mm, spanning an area of 70.08m\u00b2 and located at an elevation between -825mm and -600mm on Level 1, made from cast in situ concrete with damp-proofing and a sand/cement screed."
     },
     {
       "IfcGUID": "38BWtPCUX0VgAKmmGnoLQm",
@@ -1660,7 +1740,8 @@
       "Perimeter": "28580.00000000255",
       "Category": "Floors",
       "Level": "Level(Name=Level 2, Elevation=3000)",
-      "Comments": ""
+      "Comments": "",
+      "Description Human-Readable": "Insitu Concrete floor with a thickness of 225mm, spanning an area of 26.17m\u00b2 and located at Level 2, with elevations ranging from 2775mm to 3000mm, providing room bounding capabilities."
     }
   ],
   "Ceilings": [
@@ -1678,7 +1759,8 @@
       "Height Offset From Level": "2700.0",
       "Category": "Ceilings",
       "Level": "Level(Name=Level 1, Elevation=0)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 3000 x 3000mm grid ceiling made of plasterboard, located at Level 1 with a height offset of 2700mm, providing room bounding capabilities and covering an area of 83.51 m\u00b2."
     },
     {
       "IfcGUID": "1LMg1ZkATBJwu7hODVWkcE",
@@ -1694,7 +1776,8 @@
       "Height Offset From Level": "2700.0",
       "Category": "Ceilings",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A 3000 x 3000mm plasterboard grid ceiling, located in the Level 1 Living Room, with a height offset of 2700mm and an area of 70.79m\u00b2."
     }
   ],
   "Furniture": [
@@ -1712,7 +1795,8 @@
       "Volume": "0.020985123692510804",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A stylish Artemis lounge chair made of wood and fabric, suitable for the Level 1 Living Room, with an area of 1.41 m\u00b2 and a volume of 0.021 m\u00b3."
     },
     {
       "IfcGUID": "20nhVaBTTAJguMI9o6oDPn",
@@ -1728,7 +1812,8 @@
       "Volume": "0.020985123692510804",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Artemis lounge chair made of wood and fabric, located in the Level 1 Living Room."
     },
     {
       "IfcGUID": "1hb7CWkynF4vPDja0y_oQN",
@@ -1744,7 +1829,8 @@
       "Volume": "1.8755491184157478",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A single island seat from Herman Miller, featuring a pumpkin-colored fabric and maple veneer, designed for use in the Level 1 Living Room, with an area of 14.08 sq ft and a volume of 1.88 cu ft."
     },
     {
       "IfcGUID": "1hb7CWkynF4vPDja0y_oEs",
@@ -1759,7 +1845,8 @@
       "Volume": "0.11982440689239808",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Sofa - Ottoman, W600XD600, featuring Herman Miller Seat Fabric in 8T07 Crossing Pumpkin, located in the Level 1 Living Room."
     },
     {
       "IfcGUID": "2PbrheIID1GfgGRPO3yaMM",
@@ -1774,7 +1861,8 @@
       "Volume": "0.11982440689239808",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Sofa - Ottoman (W600XD600 2) made of Herman Miller Veneer Z5 Maple, located at Level 1 Living Room with an area of 0.75 m\u00b2 and volume of 0.12 m\u00b3."
     },
     {
       "IfcGUID": "2PbrheIID1GfgGRPO3yxeK",
@@ -1789,7 +1877,8 @@
       "Volume": "0.11982440689239808",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A W600XD600 sofa ottoman upholstered in Herman Miller Seat Fabric 8T07 Crossing Pumpkin, located on Level 1 of the living room with an area of 0.75 m\u00b2 and a volume of 0.12 m\u00b3."
     },
     {
       "IfcGUID": "2PbrheIID1GfgGRPO3yxeS",
@@ -1804,7 +1893,8 @@
       "Volume": "0.11982440689239808",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Sofa-ottoman with dimensions W600XD600, upholstered in Herman Miller Seat Fabric 8T07 Crossing Pumpkin, located in the Level 1 Living Room."
     },
     {
       "IfcGUID": "2PbrheIID1GfgGRPO3yxga",
@@ -1819,7 +1909,8 @@
       "Volume": "0.11982440689239808",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A W600XD600 Sofa - Ottoman upholstered in Herman Miller - Seat Fabric 8T07 Crossing Pumpkin, located on Level 1 of the Living Room with an area of approximately 0.75 m\u00b2."
     },
     {
       "IfcGUID": "2PbrheIID1GfgGRPO3yxjg",
@@ -1834,7 +1925,8 @@
       "Volume": "0.11982440689239808",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A W600XD600 2 Sofa - Ottoman, featuring Herman Miller - Veneer Z5 Maple, located on Level 1 Living Room with an area of 0.75 m\u00b2 and a volume of 0.12 m\u00b3."
     },
     {
       "IfcGUID": "2PbrheIID1GfgGRPO3yxiy",
@@ -1849,7 +1941,8 @@
       "Volume": "0.11982440689239808",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Sofa Ottoman, Family Type: W600XD600, featuring Herman Miller - Seat Fabric 8T07 Crossing Pumpkin, located on Level 1 Living Room with an area of 0.75 m\u00b2 and volume of 0.12 m\u00b3."
     },
     {
       "IfcGUID": "2PbrheIID1GfgGRPO3yx$6",
@@ -1866,7 +1959,8 @@
       "Volume": "0.1575546573568136",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A medium brown wood cabinet with transparent glass elements and stainless metal accents, designed for Level 1 Living Room, with an area of 3.72 m\u00b2 and a volume of 0.16 m\u00b3."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$ta$",
@@ -1883,7 +1977,8 @@
       "Volume": "0.04868595149929055",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "530.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Flat screen TV (Model M_TV, 0810mm) made of glass, black materials, and screen, located in the Level 1 Living Room at an elevation of 530mm."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$tmD",
@@ -1900,7 +1995,8 @@
       "Volume": "0.01487988125759135",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Side Table 2 (2) made from Herman Miller's Finish 47 Trivalent Chrome, Veneer Z5 Maple, and Finish PA Polished Aluminum, located on Level 1 Living Room with an area of approximately 0.56 m\u00b2."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$sEy",
@@ -1917,7 +2013,8 @@
       "Volume": "0.01487988125759135",
       "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Side Table 2, crafted from Herman Miller materials including Finish 47 Trivalent Chrome, Veneer Z5 Maple, and Polished Aluminum, designed for the Level 1 Living Room with an area of 0.56 m\u00b2."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$s13",
@@ -1933,7 +2030,8 @@
       "Volume": "0.0027388366152507073",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Bar chair made of tan leather with a trivalent chrome finish, designed for use in Level 1 of the project."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$sTF",
@@ -1949,7 +2047,8 @@
       "Volume": "0.0027388366152507073",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Bar Chair made of Trivalent Chrome finish and Tan leather, categorized under Furniture, with an area of 0.18 m\u00b2 located on Level 1."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$sQ8",
@@ -1965,7 +2064,8 @@
       "Volume": "0.0027388366152507073",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Bar Chair featuring a Trivalent Chrome finish and Tan Leather upholstery, categorized under Furniture, located on Level 1 with an area of 0.18 m\u00b2 and a volume of 0.003 m\u00b3."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$sQD",
@@ -1981,7 +2081,8 @@
       "Volume": "0.0027388366152507073",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This Bar Chair, featuring a trivalent chrome finish and tan leather upholstery, is categorized under furniture and is located on Level 1."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$sOO",
@@ -1997,7 +2098,8 @@
       "Volume": "0.0027388366152507073",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Bar Chair made of Trivalent Chrome finish and Tan Leather, categorized as furniture, located on Level 1 with an area of 0.18 m\u00b2."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$sP3",
@@ -2013,7 +2115,8 @@
       "Volume": "0.0027388366152507073",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Bar Chair made of Trivalent Chrome finish and Tan leather, located at Level 1 with a volume of 0.0027 m\u00b3."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$si3",
@@ -2029,7 +2132,8 @@
       "Volume": "0.07218839999999928",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Dining table with dimensions 1800 x 900 mm, constructed from Herman Miller Veneer OU Walnut and UX Walnut on Cherry, located on Level 1."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$sho",
@@ -2045,7 +2149,8 @@
       "Volume": "0.07218839999999928",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A dining table measuring 1800 x 900 mm, made of Herman Miller Veneer OU Walnut and UX Walnut on Cherry, located at Level 1."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$s$E",
@@ -2061,7 +2166,8 @@
       "Volume": "0.0029861052564251166",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Dining Chair (3) crafted with Herman Miller - Finish 47 Trivalent Chrome and Herman Miller - Veneer Z5 Maple, located on Level 1 with a footprint area of 0.27 m\u00b2."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$sud",
@@ -2077,7 +2183,8 @@
       "Volume": "0.0029861052564251166",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Dining Chair from Herman Miller featuring a Trivalent Chrome finish and Z5 Maple veneer, categorized under Furniture with an area of 0.27 m\u00b2, located on Level 1."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$su$",
@@ -2093,7 +2200,8 @@
       "Volume": "0.002986105256425116",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Dining Chair (3) featuring a finish of Trivalent Chrome and a veneer of Z5 Maple, categorized under Furniture and situated on Level 1."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$su_",
@@ -2109,7 +2217,8 @@
       "Volume": "0.002986105256425116",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Dining Chair (3) featuring a trivalent chrome finish and maple veneer, categorized under furniture, with an area of 0.27 m\u00b2 and located on Level 1."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$suM",
@@ -2125,7 +2234,8 @@
       "Volume": "0.002986105256425116",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Dining Chair (3) made of Trivalent Chrome and Maple veneer, located on Level 1 with an area of 0.27 m\u00b2 and a volume of 0.003 m\u00b3."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$suL",
@@ -2141,7 +2251,8 @@
       "Volume": "0.002986105256425116",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "Dining Chair (3) with a finish of Trivalent Chrome and a veneer of Maple, categorized as furniture, located on Level 1."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$suK",
@@ -2157,7 +2268,8 @@
       "Volume": "0.0029861052564251166",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Dining Chair (3) made with Herman Miller's Finish 47 Trivalent Chrome and Veneer Z5 Maple, categorized under furniture with an area of 0.27 m\u00b2, located on Level 1 at ground elevation."
     },
     {
       "IfcGUID": "1mNYMX4dvDThNrJdPk$suR",
@@ -2173,7 +2285,8 @@
       "Volume": "0.0029861052564251166",
       "Level": "Level(Name=Level 1, Elevation=0)",
       "Elevation from Level": "0.0",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A Dining Chair (3) featuring a Trivalent Chrome finish and Maple veneer, categorized under Furniture, located on Level 1 with an area of 0.27 m\u00b2 and a volume of 0.003 m\u00b3."
     }
   ],
   "Roofs": [
@@ -2193,7 +2306,8 @@
         "Roofing - Metal Standing Seam"
       ],
       "Slope": "0.0",
-      "Phase Created": "Phase"
+      "Phase Created": "Phase",
+      "Description Human-Readable": "A 173.14 m\u00b2 SG Metal Panels roof with a thickness of 202 mm, located at the Roof Line elevation of 6000 mm, constructed with materials including gypsum wall board and metal standing seam, and classified as room bounding."
     },
     {
       "IfcGUID": "0LKJKCHUL1kBtnlFfddz6a",
@@ -2213,7 +2327,8 @@
         "Roofing - Felt"
       ],
       "Slope": "0.0",
-      "Phase Created": "Phase"
+      "Phase Created": "Phase",
+      "Description Human-Readable": "A warm timber roof with an area of 70.79 m\u00b2, volume of 23.93 m\u00b3, and a thickness of 338 mm, featuring multiple layers including timber joists, rigid insulation, vapour retarder, chipboard sheathing, firring, and asphalt felt roofing, designed as room bounding."
     }
   ],
   "Stairs": [
@@ -2229,7 +2344,8 @@
       ],
       "Desired Stair Height": "550.0",
       "Category": "Stairs",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A concrete cast-in-situ stair with a tread depth of 300 mm, featuring 3 risers at a height of 180.56 mm each, connecting Level 1 Living Room at -550 mm to Level 1 at 0 mm."
     },
     {
       "IfcGUID": "2ZlFFrvcbDavSm_g3LjLIe",
@@ -2243,7 +2359,8 @@
       ],
       "Desired Stair Height": "3000.0",
       "Category": "Stairs",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "This component is a wooden staircase made of black walnut, featuring 16 risers with a height of 187.5 mm, a tread depth of approximately 250 mm, and spanning from Level 1 (Elevation 0) to Level 2 (Elevation 3000 mm)."
     },
     {
       "IfcGUID": "1N_4TwOEH5194SbNmRTDNX",
@@ -2257,7 +2374,8 @@
       ],
       "Desired Stair Height": "499.9999999999172",
       "Category": "Stairs",
-      "Comments": "None"
+      "Comments": "None",
+      "Description Human-Readable": "A concrete cast-in-situ staircase with 3 risers, each 166.67 mm high, and a tread depth of 300 mm, connecting the ceiling level at 2700 mm to Level 2 at 3000 mm."
     }
   ]
 }
