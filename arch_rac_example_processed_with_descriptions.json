@@ -1,0 +1,2263 @@
+{
+  "Doors": [
+    {
+      "IfcGUID": "1PDnLIM013wvkZO9Lb4$s7",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 800 x 2100, Family: Single-Flush",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2100.0",
+      "Sill Height": "0.0",
+      "Area": "2.9649999999999777",
+      "Volume": "0.10876799999999932",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None",
+      "Description Human-Readable": "This component is a Single-Flush door measuring 800 x 2100 mm, made from Door - Frame and Door - Panel materials, located at Level 1 with a head height of 2100 mm and an area of approximately 2.96 m\u00b2."
+    },
+    {
+      "IfcGUID": "1PDnLIM013wvkZO9Lb4$i6",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Entrance door, Family: Entrance door",
+      "Materials": [
+        "Glass",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Area": "3.8303999999999996",
+      "Volume": "0.10170816000000032",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None",
+      "Description Human-Readable": "An anodized black aluminum entrance door with glass, located on Level 1, covering an area of 3.83 m\u00b2."
+    },
+    {
+      "IfcGUID": "1$p8tACJ938vr1_lKOJJ9g",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 800 x 2100, Family: Single-Flush",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2100.0",
+      "Sill Height": "0.0",
+      "Area": "2.9649999999999777",
+      "Volume": "0.10876799999999932",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None",
+      "Description Human-Readable": "Single-flush door (800 x 2100 mm) with a frame and panel, mounted on a wall at Level 1 with a head height of 2100 mm and sill height of 0 mm."
+    },
+    {
+      "IfcGUID": "0lntrd6l1AGwfcnKJK5qoH",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 800 x 2100, Family: Single-Flush",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2100.0",
+      "Sill Height": "0.0",
+      "Area": "2.9649999999999777",
+      "Volume": "0.10876799999999931",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None",
+      "Description Human-Readable": "A single-flush door (800 x 2100) with a frame and panel construction, located on Level 2 at an elevation of 3000 mm, featuring a head height of 2100 mm and a sill height of 0 mm."
+    },
+    {
+      "IfcGUID": "0lntrd6l1AGwfcnKJK5qpS",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 800 x 2100, Family: Single-Flush",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2100.0",
+      "Sill Height": "0.0",
+      "Area": "2.9649999999999777",
+      "Volume": "0.10876799999999931",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None",
+      "Description Human-Readable": "Single-Flush door (800 x 2100 mm) with a frame and panel, installed in a wall at Level 2 (elevation 3000 mm), featuring a head height of 2100 mm and a sill height of 0 mm."
+    },
+    {
+      "IfcGUID": "0lntrd6l1AGwfcnKJK5qii",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 800 x 2100, Family: Single-Flush",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2100.0",
+      "Sill Height": "0.0",
+      "Area": "2.9649999999999777",
+      "Volume": "0.10876799999999931",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None",
+      "Description Human-Readable": "Single-Flush door measuring 800 x 2100 mm, constructed with Door - Frame and Door - Panel materials, located on Level 2 at a head height of 2100 mm and sill height of 0 mm."
+    },
+    {
+      "IfcGUID": "0lntrd6l1AGwfcnKJK5qjQ",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 800 x 2100, Family: Single-Flush",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2100.0",
+      "Sill Height": "0.0",
+      "Area": "2.9649999999999777",
+      "Volume": "0.10876799999999931",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None",
+      "Description Human-Readable": "A single-flush door (800 x 2100 mm) with a door frame and panel, installed in a wall at Level 2 (elevation 3000 mm), featuring a head height of 2100 mm and a sill height of 0 mm."
+    },
+    {
+      "IfcGUID": "0ELdlxJuP1AwzgUXpRT7je",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Curtain Wall Dbl Glass, Family: Curtain Wall Dbl Glass",
+      "Materials": [
+        "Glass",
+        "Metal - Aluminum"
+      ],
+      "Area": "2.9951999999999948",
+      "Volume": "0.057391591591999934",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None",
+      "Description Human-Readable": "A double glass curtain wall door made of aluminum and glass, located on Level 2 at an elevation of 3000 mm, with an area of approximately 2.99 m\u00b2."
+    },
+    {
+      "IfcGUID": "0ELdlxJuP1AwzgUXpRT7eB",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 800 x 2100, Family: Single-Flush",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2100.0",
+      "Sill Height": "0.0",
+      "Area": "2.9649999999999777",
+      "Volume": "0.10876799999999931",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None",
+      "Description Human-Readable": "Single-flush door (800 x 2100 mm) with a frame and panel, located on Level 2 at a head height of 2100 mm."
+    },
+    {
+      "IfcGUID": "2MWqvKy9535viQk_YsG9Xh",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 2.027 x 0.945, Family: Pocket_Slider_Door_5851",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2027.0",
+      "Sill Height": "0.0",
+      "Area": "3.5520497174451937",
+      "Volume": "0.0913121749999984",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None",
+      "Description Human-Readable": "A Pocket Slider Door (5851) with a frame height of 2027 mm and a sill height of 0 mm, located on Level 2, composed of door frame and panel materials, occupying an area of 3.55 m\u00b2."
+    },
+    {
+      "IfcGUID": "1LMg1ZkATBJwu7hODVWkYl",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Curtain Wall Dbl Glass, Family: Curtain Wall Dbl Glass",
+      "Materials": [
+        "Glass",
+        "Metal - Aluminum"
+      ],
+      "Area": "2.9951999999999948",
+      "Volume": "0.057391591591999934",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None",
+      "Description Human-Readable": "A double glass curtain wall door made of aluminum and glass, located at Level 1 with an area of approximately 2.995 m\u00b2."
+    },
+    {
+      "IfcGUID": "1LMg1ZkATBJwu7hODVWkYb",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Curtain Wall Dbl Glass, Family: Curtain Wall Dbl Glass",
+      "Materials": [
+        "Glass",
+        "Metal - Aluminum"
+      ],
+      "Area": "2.9951999999999948",
+      "Volume": "0.057391591591999934",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None",
+      "Description Human-Readable": "A double-glass curtain wall door, made of aluminum and glass, located on Level 1 with an area of approximately 2.995 m\u00b2."
+    },
+    {
+      "IfcGUID": "3Yxgiuz3TDpeHhosGP5aso",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Entrance door, Family: Entrance door",
+      "Materials": [
+        "Glass",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Area": "3.8303999999999996",
+      "Volume": "0.10170816000000032",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None",
+      "Description Human-Readable": "An entrance door made of glass and anodized black aluminum, located on Level 1, with an area of approximately 3.83 square meters."
+    },
+    {
+      "IfcGUID": "2pfAHb2EL46hq_sMVbImEN",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 1730 x 2134mm, Family: M_Double-Flush",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2133.9999999999995",
+      "Sill Height": "0.0",
+      "Area": "5.243817999999958",
+      "Volume": "0.21165281999997712",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None",
+      "Description Human-Readable": "A 1730 x 2134 mm double-flush door, framed and panelled, installed in a wall at Level 1 with a head height of approximately 2134 mm and a sill height of 0 mm."
+    },
+    {
+      "IfcGUID": "2wm6PO6TX9IxXwLP21HyWr",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 2.027 x 0.945, Family: Pocket_Slider_Door_5851",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2027.0",
+      "Sill Height": "0.0",
+      "Area": "3.5520497174451937",
+      "Volume": "0.0913121749999984",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None",
+      "Description Human-Readable": "Pocket slider door with dimensions 2.027m x 0.945m, located on Level 2 with a head height of 2.027m, constructed from door frame and panel materials."
+    },
+    {
+      "IfcGUID": "2wm6PO6TX9IxXwLP21HySo",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: 2.027 x 0.945, Family: Pocket_Slider_Door_5851",
+      "Materials": [
+        "Door - Frame",
+        "Door - Panel"
+      ],
+      "Head Height": "2027.0",
+      "Sill Height": "0.0",
+      "Area": "3.5520497174451937",
+      "Volume": "0.0913121749999984",
+      "Category": "Doors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None",
+      "Description Human-Readable": "A Pocket Slider Door with dimensions 2.027m x 0.945m, featuring a frame and panel construction, located on Level 2 at a height of 3000mm."
+    }
+  ],
+  "Windows": [
+    {
+      "IfcGUID": "1ikhyTwD17yAnDcdaZ57Om",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.51868000000218",
+      "Volume": "0.1540259999999749",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1ikhyTwD17yAnDcdaZ57O9",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.51868000000218",
+      "Volume": "0.1540259999999749",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1ikhyTwD17yAnDcdaZ57Pn",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.51868000000218",
+      "Volume": "0.1540259999999749",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0ELdlxJuP1AwzgUXpRT7iS",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.51868000000218",
+      "Volume": "0.1540259999999749",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "12QTT5rufCoeOFfLiN060S",
+      "Host Id": "ExtrusionRoof",
+      "Family and Type": "Family Type: 1180 x 1170mm, Family: M_Skylight",
+      "Materials": [
+        "Glass",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Area": "2.7291125068598747",
+      "Volume": "0.04199918304494646",
+      "Category": "Windows",
+      "Level": "",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "12QTT5rufCoeOFfLiN06FB",
+      "Host Id": "ExtrusionRoof",
+      "Family and Type": "Family Type: 1180 x 1170mm, Family: M_Skylight",
+      "Materials": [
+        "Glass",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Area": "2.7291125068598747",
+      "Volume": "0.04199918304494646",
+      "Category": "Windows",
+      "Level": "",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1jq3WIaE92UPTHNxmrWmzx",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.51868000000218",
+      "Volume": "0.1540259999999749",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0c0us5oRfBJgddHOG86fE2",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.51868000000218",
+      "Volume": "0.1540259999999749",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2Lyq8QMkH4ges0Q77HE131",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.51868000000218",
+      "Volume": "0.1540259999999749",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "20nhVaBTTAJguMI9o6oD2l",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass, Clear Glazing",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.639880000002175",
+      "Volume": "0.15582599999996738",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "20nhVaBTTAJguMI9o6oD5Q",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.639880000002175",
+      "Volume": "0.15582599999996738",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "20nhVaBTTAJguMI9o6oD4T",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.639880000002175",
+      "Volume": "0.15582599999996738",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "20nhVaBTTAJguMI9o6oDQ8",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.639880000002175",
+      "Volume": "0.15582599999996738",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "20nhVaBTTAJguMI9o6oBQ8",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.639880000002173",
+      "Volume": "0.15582599999996744",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "20nhVaBTTAJguMI9o6oBQ9",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.639880000002173",
+      "Volume": "0.15582599999996744",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "20nhVaBTTAJguMI9o6oBQE",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.639880000002173",
+      "Volume": "0.15582599999996744",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "20nhVaBTTAJguMI9o6oBQF",
+      "Host Id": "Wall",
+      "Family and Type": "Family Type: Standard, Family: Single Window",
+      "Materials": [
+        "Glass",
+        "Wood_Walnut black",
+        "SH_Aluminum, Anodized Black"
+      ],
+      "Head Height": "2700.0",
+      "Sill Height": "0.0",
+      "Rough Width": "1500.0",
+      "Rough Height": "2700.0",
+      "Area": "5.639880000002173",
+      "Volume": "0.15582599999996744",
+      "Category": "Windows",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    }
+  ],
+  "Walls": [
+    {
+      "IfcGUID": "3lLx0gNe59vvExhby0Bfew",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Concrete, Sand/Cement Screed"
+      ],
+      "Unconnected Height": "3300.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "6201.999999999788",
+      "Area": "22.35498965607848",
+      "Volume": "4.5157079105278415",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "3lLx0gNe59vvExhby0Bff1",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Finishes - Exterior - Timber Cladding"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "4579.999999999903",
+      "Area": "6.0099677500018025",
+      "Volume": "1.214013485500302",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "28i3i5WDD8Ju0YHnzXOzdu",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Finishes - Exterior - Timber Cladding"
+      ],
+      "Unconnected Height": "3446.220119452649",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Length": "4660.999999999724",
+      "Area": "21.47450816106849",
+      "Volume": "4.33785064853583",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1oPutv5ADAxgWEbAZbN6Wv",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Finishes - Exterior - Timber Cladding"
+      ],
+      "Unconnected Height": "2699.9999999999627",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "3199.9999999999995",
+      "Area": "8.639999999999883",
+      "Volume": "1.745279999999977",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1PDnLIM013wvkZO9Lb4$wc",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Finishes - Exterior - Timber Cladding"
+      ],
+      "Unconnected Height": "2700.000000000083",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Length": "3041.0000000000005",
+      "Area": "5.985299999999648",
+      "Volume": "1.209030599999929",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1PDnLIM013wvkZO9Lb4$j_",
+      "Family and Type": "WallType",
+      "Materials": [],
+      "Unconnected Height": "5700.0",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "2999.999999999948",
+      "Area": "17.099999999999707",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1PDnLIM013wvkZO9Lb4$GV",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "2700.000000000083",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Length": "3041.000000000002",
+      "Area": "5.985299999999645",
+      "Volume": "0.988173029999941",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1$p8tACJ938vr1_lKOJJ0t",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "2700.000000000083",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Length": "2558.449999999908",
+      "Area": "6.412229999999852",
+      "Volume": "1.058659172999978",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "38NblWsDL1I8DljLvn67Sd",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Finishes - Exterior - Timber Cladding"
+      ],
+      "Unconnected Height": "3900.000000000083",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Length": "19821.99999999999",
+      "Area": "61.10580000000165",
+      "Volume": "12.343371600000307",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "38NblWsDL1I8DljLvn67bV",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Concrete, Sand/Cement Screed"
+      ],
+      "Unconnected Height": "3300.000000000086",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "19701.999999999996",
+      "Area": "43.2000000000016",
+      "Volume": "8.094845644640861",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "38NblWsDL1I8DljLvn67cw",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Concrete, Sand/Cement Screed"
+      ],
+      "Unconnected Height": "3500.0000000000005",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "19702.00000000002",
+      "Area": "43.29570000000042",
+      "Volume": "8.150024863221773",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "38NblWsDL1I8DljLvn67cE",
+      "Family and Type": "WallType",
+      "Materials": [],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "6201.999999999786",
+      "Area": "26.485096468274943",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0lntrd6l1AGwfcnKJK5r28",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "6201.999999999788",
+      "Area": "24.805096468274936",
+      "Volume": "2.9766115761929948",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0lntrd6l1AGwfcnKJK5r3q",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "11380.000000000007",
+      "Area": "40.01458201950363",
+      "Volume": "4.468133060274527",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0lntrd6l1AGwfcnKJK5q$g",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "2823.999999999897",
+      "Area": "13.025435742792085",
+      "Volume": "1.5630522891350538",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0lntrd6l1AGwfcnKJK5quT",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "2880.0",
+      "Area": "12.819259192305262",
+      "Volume": "1.5191937745218271",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0lntrd6l1AGwfcnKJK5qv8",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "2156.9999999998263",
+      "Area": "6.645795311835126",
+      "Volume": "0.7974954374202132",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0lntrd6l1AGwfcnKJK5qmF",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "4660.999999999722",
+      "Area": "19.558993161068518",
+      "Volume": "2.221804498328228",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0NWseyvsH7_gBW225aGtuD",
+      "Family and Type": "WallType",
+      "Materials": [
+        "CL Concrete_ panels"
+      ],
+      "Unconnected Height": "3500.0000000000005",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "9628.06296013735",
+      "Area": "24.781614728492166",
+      "Volume": "6.801272563111698",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": ""
+    },
+    {
+      "IfcGUID": "0NWseyvsH7_gBW225aGtwW",
+      "Family and Type": "WallType",
+      "Materials": [
+        "CL Concrete_ panels"
+      ],
+      "Unconnected Height": "3500.0000000000005",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "21026.0160241332",
+      "Area": "74.56369583215556",
+      "Volume": "20.833247003954767",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": ""
+    },
+    {
+      "IfcGUID": "0NWseyvsH7_gBW225aGtx$",
+      "Family and Type": "WallType",
+      "Materials": [
+        "CL Concrete_ panels"
+      ],
+      "Unconnected Height": "3500.0000000000005",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "15750.136126383872",
+      "Area": "55.18357626384972",
+      "Volume": "15.451401353877966",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": ""
+    },
+    {
+      "IfcGUID": "0NWseyvsH7_gBW225aGtyM",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete, Cast In Situ"
+      ],
+      "Unconnected Height": "3500.0000000000005",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "8946.549314232816",
+      "Area": "30.90224179151698",
+      "Volume": "9.061987529618479",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": ""
+    },
+    {
+      "IfcGUID": "1jq3WIaE92UPTHNxmrWm6f",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "2440.000000000008",
+      "Area": "13.560271245453018",
+      "Volume": "1.609869146034873",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2MWqvKy9535viQk_YsG9eF",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "1200.0000000000114",
+      "Area": "6.132334130744109",
+      "Volume": "0.7275682137089425",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2MWqvKy9535viQk_YsG9km",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "1020.0000000000001",
+      "Area": "4.984572879799174",
+      "Volume": "0.5981487455759068",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "39NeMDaWPEh9g8$CxWwg0v",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Concrete, Sand/Cement Screed"
+      ],
+      "Unconnected Height": "3300.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "6201.999999999788",
+      "Area": "5.91356954504015",
+      "Volume": "1.1945410480981131",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "3_T6_Ndub6XO_ef59N4DQX",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete - Cast In Situ"
+      ],
+      "Unconnected Height": "3400.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Unconnected",
+      "Length": "7149.999999999957",
+      "Area": "25.329999999999856",
+      "Volume": "7.598999999999954",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "3_T6_Ndub6XO_ef59N4DRY",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete - Cast In Situ"
+      ],
+      "Unconnected Height": "3400.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Unconnected",
+      "Length": "13701.999999999995",
+      "Area": "46.5868",
+      "Volume": "13.976040000000053",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "3_T6_Ndub6XO_ef59N4DOF",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete - Cast In Situ"
+      ],
+      "Unconnected Height": "3400.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Unconnected",
+      "Length": "4149.999999999954",
+      "Area": "14.109999999999825",
+      "Volume": "4.232999999999933",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1RUi90wQT3ihQ$96bMNGiu",
+      "Family and Type": "WallType",
+      "Materials": [
+        "CL Concrete_ panels"
+      ],
+      "Unconnected Height": "1500.0",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Length": "24690.000000000004",
+      "Area": "36.61500000000001",
+      "Volume": "10.25220000000001",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1RUi90wQT3ihQ$96bMNGvH",
+      "Family and Type": "WallType",
+      "Materials": [
+        "CL Concrete_ panels"
+      ],
+      "Unconnected Height": "1500.0",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Length": "6722.75901146691",
+      "Area": "9.754534302697172",
+      "Volume": "2.6868917163002206",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1RUi90wQT3ihQ$96bMNGrh",
+      "Family and Type": "WallType",
+      "Materials": [
+        "CL Concrete_ panels"
+      ],
+      "Unconnected Height": "1500.0",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Length": "18449.000000000007",
+      "Area": "27.615000000000002",
+      "Volume": "7.7322",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "27lifGE4TF58A1JhY9194T",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Finishes - Exterior - Timber Cladding"
+      ],
+      "Unconnected Height": "549.9999999998528",
+      "Base Constraint": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "6202.0",
+      "Area": "3.300000000000001",
+      "Volume": "0.6665999999999989",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1LMg1ZkATBJwu7hODVWkYe",
+      "Family and Type": "WallType",
+      "Materials": [],
+      "Unconnected Height": "2700.0000000001473",
+      "Base Constraint": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Top Constraint": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Length": "6202.0",
+      "Area": "16.20000000000001",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "3Yxgiuz3TDpeHhosGP5bD6",
+      "Family and Type": "WallType",
+      "Materials": [],
+      "Unconnected Height": "5700.0",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "1481.000000000001",
+      "Area": "7.866000000000006",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "3Yxgiuz3TDpeHhosGP5b8q",
+      "Family and Type": "WallType",
+      "Materials": [],
+      "Unconnected Height": "2700.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "1480.9999999998429",
+      "Area": "3.725999999999576",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "3Yxgiuz3TDpeHhosGP5asn",
+      "Family and Type": "WallType",
+      "Materials": [],
+      "Unconnected Height": "2700.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "3010.0000000000155",
+      "Area": "7.854300000000043",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2WEjrPJHb8ux9RBvH$Iq0S",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete - Cast In Situ"
+      ],
+      "Unconnected Height": "2600.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Unconnected",
+      "Length": "10240.0",
+      "Area": "26.624000000000002",
+      "Volume": "7.987199999999974",
+      "Room Bounding": "0",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2WEjrPJHb8ux9RBvH$Iq3g",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete - Cast In Situ"
+      ],
+      "Unconnected Height": "2600.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Unconnected",
+      "Length": "7225.8475772933725",
+      "Area": "20.632703515914624",
+      "Volume": "5.987161110288806",
+      "Room Bounding": "0",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2WEjrPJHb8ux9RBvH$IqPC",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete - Cast In Situ"
+      ],
+      "Unconnected Height": "2600.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Unconnected",
+      "Length": "5000.000000000002",
+      "Area": "14.065499814951854",
+      "Volume": "4.016999999999983",
+      "Room Bounding": "0",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2WEjrPJHb8ux9RBvH$IqQR",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete - Cast In Situ"
+      ],
+      "Unconnected Height": "2600.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Unconnected",
+      "Length": "5200.000000000003",
+      "Area": "13.415499814951872",
+      "Volume": "3.8220000000000085",
+      "Room Bounding": "0",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2WEjrPJHb8ux9RBvH$IqSV",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete - Cast In Situ"
+      ],
+      "Unconnected Height": "2600.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Unconnected",
+      "Length": "7095.7582800919745",
+      "Area": "18.344471343191",
+      "Volume": "5.300691458471727",
+      "Room Bounding": "0",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "38BWtPCUX0VgAKmmGnoLFm",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete - Cast In Situ"
+      ],
+      "Unconnected Height": "3100.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "2839.9999999999995",
+      "Area": "8.339000000000011",
+      "Volume": "2.501699999999998",
+      "Room Bounding": "0",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "38BWtPCUX0VgAKmmGnoLCN",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Concrete - Cast In Situ"
+      ],
+      "Unconnected Height": "3100.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "2839.999999999993",
+      "Area": "8.338999999999993",
+      "Volume": "2.5016999999999867",
+      "Room Bounding": "0",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0nbT7BoYn1WRd0KTefRTuG",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "2880.0",
+      "Area": "13.668918239185466",
+      "Volume": "1.6211528601474525",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "3rPRxvVIT7WRZKOFIc3wXL",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Finishes - Exterior - Timber Cladding"
+      ],
+      "Unconnected Height": "2700.000000000168",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Length": "4699.999999999875",
+      "Area": "13.638900000000573",
+      "Volume": "2.75505780000011",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2OulbipBrAkwQNv_KJRUgr",
+      "Family and Type": "WallType",
+      "Materials": [],
+      "Unconnected Height": "2700.000000000083",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Length": "11899.000000000011",
+      "Area": "31.854600000001007",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2OulbipBrAkwQNv_KJRUYY",
+      "Family and Type": "WallType",
+      "Materials": [],
+      "Unconnected Height": "2700.000000000083",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Length": "6101.000000002227",
+      "Area": "16.472700000006924",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2OulbipBrAkwQNv_KJRV9c",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Finishes - Interior - Plasterboard",
+        "Wood - Stud Layer",
+        "Structure - Timber Insulated Panel - Insulation",
+        "Structure - Timber Insulated Panel - OSB",
+        "Finishes - Exterior - Timber Cladding"
+      ],
+      "Unconnected Height": "3900.0000000002296",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "15202.000000000102",
+      "Area": "42.75180000000411",
+      "Volume": "8.635863600000832",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2pfAHb2EL46hq_sMVbImEh",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "2700.000000000083",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Length": "1982.5499999998158",
+      "Area": "4.85729999999977",
+      "Volume": "0.8019402299999638",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2wm6PO6TX9IxXwLP21Hz10",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "1836.9999999998263",
+      "Area": "6.239816267066892",
+      "Volume": "0.7487779520480253",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2wm6PO6TX9IxXwLP21HynH",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "2503.9999999998977",
+      "Area": "12.619456698023846",
+      "Volume": "1.5143348037628557",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2wm6PO6TX9IxXwLP21Hyl3",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "3000.0",
+      "Base Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Top Constraint": "Level(Name=Roof Line, Elevation=6000)",
+      "Length": "2494.9000000000683",
+      "Area": "10.097283290847207",
+      "Volume": "1.2016017240732373",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2hD3j_DmLBXxhCCy1gOWbj",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Wood - Stud Layer",
+        "Finishes - Interior - Gypsum Wall Board"
+      ],
+      "Unconnected Height": "799.9999999999998",
+      "Base Constraint": "Level(Name=Foundation, Elevation=-800)",
+      "Top Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Length": "3160.999999999996",
+      "Area": "2.3672000000000355",
+      "Volume": "0.28406400000000376",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2hD3j_DmLBXxhCCy1gOWRm",
+      "Family and Type": "WallType",
+      "Materials": [
+        "Metal Stud Layer",
+        "Air",
+        "Finishes - Exterior - Timber Cladding"
+      ],
+      "Unconnected Height": "3300.0",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "2939.9999999999445",
+      "Area": "9.368699999999937",
+      "Volume": "2.6232359999999826",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2hD3j_DmLBXxhCCy1gOWVy",
+      "Family and Type": "WallType",
+      "Materials": [],
+      "Unconnected Height": "2699.9999999999627",
+      "Base Constraint": "Level(Name=Level 1, Elevation=0)",
+      "Top Constraint": "Level(Name=Level 2, Elevation=3000)",
+      "Length": "11800.0",
+      "Area": "31.859999999999562",
+      "Room Bounding": "1",
+      "Category": "Walls",
+      "Comments": "None"
+    }
+  ],
+  "Floors": [
+    {
+      "IfcGUID": "0WFFycJ9rEj9FbADAA0q3o",
+      "Family and Type": "Generic 150mm",
+      "Materials": [
+        "SH_resin Floor"
+      ],
+      "Elevation at Bottom": "-150.0",
+      "Elevation at Top": "0.0",
+      "Thickness": "150.0",
+      "Area": "105.90600000000431",
+      "Volume": "15.88590000000065",
+      "Room Bounding": "1",
+      "Perimeter": "48000.0000000007",
+      "Category": "Floors",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "3OLNF2_DL6hfPgh8Bw7fI7",
+      "Family and Type": "Generic 300",
+      "Materials": [
+        "SH_resin Floor"
+      ],
+      "Elevation at Bottom": "2700.0",
+      "Elevation at Top": "3000.0",
+      "Thickness": "300.0",
+      "Area": "100.49304164220563",
+      "Volume": "30.147912492661685",
+      "Room Bounding": "1",
+      "Perimeter": "45610.50408121465",
+      "Category": "Floors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0NWseyvsH7_gBW225aGtZP",
+      "Family and Type": "Concrete-Domestic 425mm",
+      "Materials": [
+        "Concrete, Cast In Situ",
+        "Rigid insulation",
+        "Damp-proofing",
+        "Concrete, Sand/Cement Screed",
+        "Site - Hardcore"
+      ],
+      "Elevation at Bottom": "-425.0",
+      "Elevation at Top": "0.0",
+      "Thickness": "425.0",
+      "Area": "38.45999999999986",
+      "Volume": "16.34549999999994",
+      "Room Bounding": "1",
+      "Perimeter": "24819.999999999953",
+      "Category": "Floors",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "0PSFPzOkvFnf082fy0SVrB",
+      "Family and Type": "Timber Suspended Floor",
+      "Materials": [
+        "Structure - Timber Joist/Rafter Layer",
+        "Carpet (1)"
+      ],
+      "Elevation at Bottom": "-797.0000000000001",
+      "Elevation at Top": "-550.0",
+      "Thickness": "247.00000000000003",
+      "Area": "74.22057300000166",
+      "Volume": "18.33248153100041",
+      "Room Bounding": "1",
+      "Perimeter": "37396.00000000067",
+      "Category": "Floors",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1UXnAYut94jfvp2gf33JX9",
+      "Family and Type": "Generic 300",
+      "Materials": [
+        "SH_resin Floor"
+      ],
+      "Elevation at Bottom": "2700.0",
+      "Elevation at Top": "3000.0",
+      "Thickness": "300.0",
+      "Area": "8.999999999999613",
+      "Volume": "2.6999999999998834",
+      "Room Bounding": "1",
+      "Perimeter": "14999.999999999643",
+      "Category": "Floors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1UXnAYut94jfvp2gf33Js1",
+      "Family and Type": "Generic 150mm",
+      "Materials": [
+        "SH_resin Floor"
+      ],
+      "Elevation at Bottom": "-700.0",
+      "Elevation at Top": "-550.0",
+      "Thickness": "150.0",
+      "Area": "18.00299999999988",
+      "Volume": "2.700449999999982",
+      "Room Bounding": "1",
+      "Perimeter": "18001.99999999996",
+      "Category": "Floors",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1cCK8nA61FduUezO75i8dB",
+      "Family and Type": "Insitu Concrete 225mm",
+      "Materials": [
+        "Concrete, Cast In Situ",
+        "Damp-proofing",
+        "Concrete, Sand/Cement Screed"
+      ],
+      "Elevation at Bottom": "-825.0",
+      "Elevation at Top": "-600.0",
+      "Thickness": "225.00000000000003",
+      "Area": "70.07957709510963",
+      "Volume": "15.76790484639967",
+      "Room Bounding": "0",
+      "Perimeter": "53163.95315940268",
+      "Category": "Floors",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "38BWtPCUX0VgAKmmGnoLQm",
+      "Family and Type": "Insitu Concrete 225mm",
+      "Materials": [
+        "Concrete, Cast In Situ",
+        "Damp-proofing",
+        "Concrete, Sand/Cement Screed"
+      ],
+      "Elevation at Bottom": "2775.0000000000005",
+      "Elevation at Top": "3000.0",
+      "Thickness": "225.00000000000003",
+      "Area": "26.169000000003045",
+      "Volume": "5.888025000000679",
+      "Room Bounding": "1",
+      "Perimeter": "28580.00000000255",
+      "Category": "Floors",
+      "Level": "Level(Name=Level 2, Elevation=3000)",
+      "Comments": ""
+    }
+  ],
+  "Ceilings": [
+    {
+      "IfcGUID": "3t5Ey6FwDBbRFdkxqUP7z5",
+      "Family and Type": "3000 x 3000mm Grid",
+      "Materials": [
+        "Default",
+        "Finishes - Interior - Plasterboard"
+      ],
+      "Area": "83.51144000000616",
+      "Volume": "4.175572000000308",
+      "Room Bounding": "1",
+      "Perimeter": "39156.000000000924",
+      "Height Offset From Level": "2700.0",
+      "Category": "Ceilings",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1LMg1ZkATBJwu7hODVWkcE",
+      "Family and Type": "3000 x 3000mm Grid",
+      "Materials": [
+        "Default",
+        "Finishes - Interior - Plasterboard"
+      ],
+      "Area": "70.78800000000138",
+      "Volume": "3.5394000000000694",
+      "Room Bounding": "0",
+      "Perimeter": "35596.0000000005",
+      "Height Offset From Level": "2700.0",
+      "Category": "Ceilings",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Comments": "None"
+    }
+  ],
+  "Furniture": [
+    {
+      "IfcGUID": "1N_4TwOEH5194SbNmRTFml",
+      "Host Id": "-1",
+      "Type": "Family Type: Seating - Artemis - Lounge chair, Family: Seating - Artemis - Lounge chair",
+      "Family": "Family Type: Seating - Artemis - Lounge chair, Family: Seating - Artemis - Lounge chair",
+      "Materials": [
+        "Chair wood",
+        "Chair Fabric"
+      ],
+      "Category": "Furniture",
+      "Area": "1.4050983015489262",
+      "Volume": "0.020985123692510804",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "20nhVaBTTAJguMI9o6oDPn",
+      "Host Id": "-1",
+      "Type": "Family Type: Seating - Artemis - Lounge chair, Family: Seating - Artemis - Lounge chair",
+      "Family": "Family Type: Seating - Artemis - Lounge chair, Family: Seating - Artemis - Lounge chair",
+      "Materials": [
+        "Chair wood",
+        "Chair Fabric"
+      ],
+      "Category": "Furniture",
+      "Area": "1.4050983015489262",
+      "Volume": "0.020985123692510804",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1hb7CWkynF4vPDja0y_oQN",
+      "Host Id": "-1",
+      "Type": "Family Type: Model with Island, Family: Seat - Single with Island",
+      "Family": "Family Type: Model with Island, Family: Seat - Single with Island",
+      "Materials": [
+        "Herman Miller - Seat Fabric 8T07 Crossing Pumpkin",
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "14.083493318943859",
+      "Volume": "1.8755491184157478",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1hb7CWkynF4vPDja0y_oEs",
+      "Host Id": "-1",
+      "Type": "Family Type: W600XD600, Family: Sofa - Ottoman",
+      "Family": "Family Type: W600XD600, Family: Sofa - Ottoman",
+      "Materials": [
+        "Herman Miller - Seat Fabric 8T07 Crossing Pumpkin"
+      ],
+      "Category": "Furniture",
+      "Area": "0.7493466796271538",
+      "Volume": "0.11982440689239808",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2PbrheIID1GfgGRPO3yaMM",
+      "Host Id": "-1",
+      "Type": "Family Type: W600XD600 2, Family: Sofa - Ottoman",
+      "Family": "Family Type: W600XD600 2, Family: Sofa - Ottoman",
+      "Materials": [
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "0.7493466796271538",
+      "Volume": "0.11982440689239808",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2PbrheIID1GfgGRPO3yxeK",
+      "Host Id": "-1",
+      "Type": "Family Type: W600XD600, Family: Sofa - Ottoman",
+      "Family": "Family Type: W600XD600, Family: Sofa - Ottoman",
+      "Materials": [
+        "Herman Miller - Seat Fabric 8T07 Crossing Pumpkin"
+      ],
+      "Category": "Furniture",
+      "Area": "0.7493466796271538",
+      "Volume": "0.11982440689239808",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2PbrheIID1GfgGRPO3yxeS",
+      "Host Id": "-1",
+      "Type": "Family Type: W600XD600, Family: Sofa - Ottoman",
+      "Family": "Family Type: W600XD600, Family: Sofa - Ottoman",
+      "Materials": [
+        "Herman Miller - Seat Fabric 8T07 Crossing Pumpkin"
+      ],
+      "Category": "Furniture",
+      "Area": "0.7493466796271538",
+      "Volume": "0.11982440689239808",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2PbrheIID1GfgGRPO3yxga",
+      "Host Id": "-1",
+      "Type": "Family Type: W600XD600, Family: Sofa - Ottoman",
+      "Family": "Family Type: W600XD600, Family: Sofa - Ottoman",
+      "Materials": [
+        "Herman Miller - Seat Fabric 8T07 Crossing Pumpkin"
+      ],
+      "Category": "Furniture",
+      "Area": "0.7493466796271538",
+      "Volume": "0.11982440689239808",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2PbrheIID1GfgGRPO3yxjg",
+      "Host Id": "-1",
+      "Type": "Family Type: W600XD600 2, Family: Sofa - Ottoman",
+      "Family": "Family Type: W600XD600 2, Family: Sofa - Ottoman",
+      "Materials": [
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "0.7493466796271538",
+      "Volume": "0.11982440689239808",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2PbrheIID1GfgGRPO3yxiy",
+      "Host Id": "-1",
+      "Type": "Family Type: W600XD600, Family: Sofa - Ottoman",
+      "Family": "Family Type: W600XD600, Family: Sofa - Ottoman",
+      "Materials": [
+        "Herman Miller - Seat Fabric 8T07 Crossing Pumpkin"
+      ],
+      "Category": "Furniture",
+      "Area": "0.7493466796271538",
+      "Volume": "0.11982440689239808",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2PbrheIID1GfgGRPO3yx$6",
+      "Host Id": "-1",
+      "Type": "Family Type: W1500XD400XH530, Family: Cabinet 1",
+      "Family": "Family Type: W1500XD400XH530, Family: Cabinet 1",
+      "Materials": [
+        "Glass - Transparent",
+        "Wood - Medium Brown",
+        "Metal - Stainless"
+      ],
+      "Category": "Furniture",
+      "Area": "3.71546102528754",
+      "Volume": "0.1575546573568136",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$ta$",
+      "Host Id": "-1",
+      "Type": "Family Type: 0810mm, Family: M_TV - Flat Screen",
+      "Family": "Family Type: 0810mm, Family: M_TV - Flat Screen",
+      "Materials": [
+        "TV - Glass",
+        "TV - Black",
+        "TV - Screen"
+      ],
+      "Category": "Furniture",
+      "Area": "1.1039608812708803",
+      "Volume": "0.04868595149929055",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "530.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$tmD",
+      "Host Id": "-1",
+      "Type": "Family Type: Side Table 2 (2), Family: Side Table 2 (2)",
+      "Family": "Family Type: Side Table 2 (2), Family: Side Table 2 (2)",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Herman Miller - Veneer Z5 Maple",
+        "Herman Miller - Finish PA Polished Aluminum"
+      ],
+      "Category": "Furniture",
+      "Area": "0.5625982941484555",
+      "Volume": "0.01487988125759135",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$sEy",
+      "Host Id": "-1",
+      "Type": "Family Type: Side Table 2 (2), Family: Side Table 2 (2)",
+      "Family": "Family Type: Side Table 2 (2), Family: Side Table 2 (2)",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Herman Miller - Veneer Z5 Maple",
+        "Herman Miller - Finish PA Polished Aluminum"
+      ],
+      "Category": "Furniture",
+      "Area": "0.5625982941484555",
+      "Volume": "0.01487988125759135",
+      "Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$s13",
+      "Host Id": "-1",
+      "Type": "Family Type: Bar Chair, Family: Bar Chair",
+      "Family": "Family Type: Bar Chair, Family: Bar Chair",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Leather - Tan"
+      ],
+      "Category": "Furniture",
+      "Area": "0.18140184997632078",
+      "Volume": "0.0027388366152507073",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$sTF",
+      "Host Id": "-1",
+      "Type": "Family Type: Bar Chair, Family: Bar Chair",
+      "Family": "Family Type: Bar Chair, Family: Bar Chair",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Leather - Tan"
+      ],
+      "Category": "Furniture",
+      "Area": "0.18140184997632078",
+      "Volume": "0.0027388366152507073",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$sQ8",
+      "Host Id": "-1",
+      "Type": "Family Type: Bar Chair, Family: Bar Chair",
+      "Family": "Family Type: Bar Chair, Family: Bar Chair",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Leather - Tan"
+      ],
+      "Category": "Furniture",
+      "Area": "0.18140184997632078",
+      "Volume": "0.0027388366152507073",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$sQD",
+      "Host Id": "-1",
+      "Type": "Family Type: Bar Chair, Family: Bar Chair",
+      "Family": "Family Type: Bar Chair, Family: Bar Chair",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Leather - Tan"
+      ],
+      "Category": "Furniture",
+      "Area": "0.18140184997632078",
+      "Volume": "0.0027388366152507073",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$sOO",
+      "Host Id": "-1",
+      "Type": "Family Type: Bar Chair, Family: Bar Chair",
+      "Family": "Family Type: Bar Chair, Family: Bar Chair",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Leather - Tan"
+      ],
+      "Category": "Furniture",
+      "Area": "0.18140184997632078",
+      "Volume": "0.0027388366152507073",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$sP3",
+      "Host Id": "-1",
+      "Type": "Family Type: Bar Chair, Family: Bar Chair",
+      "Family": "Family Type: Bar Chair, Family: Bar Chair",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Leather - Tan"
+      ],
+      "Category": "Furniture",
+      "Area": "0.18140184997632078",
+      "Volume": "0.0027388366152507073",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$si3",
+      "Host Id": "-1",
+      "Type": "Family Type: 1800 x 900 mm, Family: Table-Dining 01 (M)",
+      "Family": "Family Type: 1800 x 900 mm, Family: Table-Dining 01 (M)",
+      "Materials": [
+        "Herman Miller - Veneer OU Walnut",
+        "Herman Miller - Veneer UX Walnut on Cherry"
+      ],
+      "Category": "Furniture",
+      "Area": "2.831581254635516",
+      "Volume": "0.07218839999999928",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$sho",
+      "Host Id": "-1",
+      "Type": "Family Type: 1800 x 900 mm, Family: Table-Dining 01 (M)",
+      "Family": "Family Type: 1800 x 900 mm, Family: Table-Dining 01 (M)",
+      "Materials": [
+        "Herman Miller - Veneer OU Walnut",
+        "Herman Miller - Veneer UX Walnut on Cherry"
+      ],
+      "Category": "Furniture",
+      "Area": "2.831581254635516",
+      "Volume": "0.07218839999999928",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$s$E",
+      "Host Id": "-1",
+      "Type": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Family": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "0.26628626770377684",
+      "Volume": "0.0029861052564251166",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$sud",
+      "Host Id": "-1",
+      "Type": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Family": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "0.26628626770377684",
+      "Volume": "0.0029861052564251166",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$su$",
+      "Host Id": "-1",
+      "Type": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Family": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "0.26628626770377684",
+      "Volume": "0.002986105256425116",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$su_",
+      "Host Id": "-1",
+      "Type": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Family": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "0.26628626770377684",
+      "Volume": "0.002986105256425116",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$suM",
+      "Host Id": "-1",
+      "Type": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Family": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "0.26628626770377684",
+      "Volume": "0.002986105256425116",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$suL",
+      "Host Id": "-1",
+      "Type": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Family": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "0.26628626770377684",
+      "Volume": "0.002986105256425116",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$suK",
+      "Host Id": "-1",
+      "Type": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Family": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "0.26628626770377684",
+      "Volume": "0.0029861052564251166",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1mNYMX4dvDThNrJdPk$suR",
+      "Host Id": "-1",
+      "Type": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Family": "Family Type: Dining Chair (3), Family: Dining Chair (3)",
+      "Materials": [
+        "Herman Miller - Finish 47 Trivalent Chrome",
+        "Herman Miller - Veneer Z5 Maple"
+      ],
+      "Category": "Furniture",
+      "Area": "0.26628626770377684",
+      "Volume": "0.0029861052564251166",
+      "Level": "Level(Name=Level 1, Elevation=0)",
+      "Elevation from Level": "0.0",
+      "Comments": "None"
+    }
+  ],
+  "Roofs": [
+    {
+      "IfcGUID": "2cgXCjpDT0ZxBvxMSr3pfm",
+      "Category": "Roofs",
+      "Family and Type": "SG Metal Panels roof",
+      "Area": "173.14197087000505",
+      "Volume": "34.974081692707315",
+      "Thickness": "202.00000000000003",
+      "Reference Level": "Level(Name=Roof Line, Elevation=6000)",
+      "Room Bounding": "1",
+      "Materials": [
+        "Gypsum Wall Board",
+        "Softwood, Lumber",
+        "Wood - Furring",
+        "Roofing - Metal Standing Seam"
+      ],
+      "Slope": "0.0",
+      "Phase Created": "Phase"
+    },
+    {
+      "IfcGUID": "0LKJKCHUL1kBtnlFfddz6a",
+      "Category": "Roofs",
+      "Family and Type": "Warm Roof - Timber",
+      "Area": "70.78800000000155",
+      "Volume": "23.926344000000547",
+      "Thickness": "338.00000000000006",
+      "Room Bounding": "1",
+      "Materials": [
+        "Structure - Timber Joist/Rafter Layer",
+        "Insulation / Thermal Barriers - Rigid insulation",
+        "Vapour / Moisture Barriers - Vapour Retarder",
+        "Wood - Sheathing - Chipboard",
+        "Wood - Firring",
+        "Roofing - Asphalt",
+        "Roofing - Felt"
+      ],
+      "Slope": "0.0",
+      "Phase Created": "Phase"
+    }
+  ],
+  "Stairs": [
+    {
+      "IfcGUID": "07dHKEjXj6kwcHAxpyAkMS",
+      "Actual Tread Depth": "300.0",
+      "Actual Number of Risers": "3",
+      "Actual Riser Height": "180.55555555556018",
+      "Base Level": "Level(Name=Level 1 Living Rm., Elevation=-550)",
+      "Top Level": "Level(Name=Level 1, Elevation=0)",
+      "Materials": [
+        "Concrete, Cast In Situ"
+      ],
+      "Desired Stair Height": "550.0",
+      "Category": "Stairs",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "2ZlFFrvcbDavSm_g3LjLIe",
+      "Actual Tread Depth": "249.99999999999997",
+      "Actual Number of Risers": "16",
+      "Actual Riser Height": "187.5",
+      "Base Level": "Level(Name=Level 1, Elevation=0)",
+      "Top Level": "Level(Name=Level 2, Elevation=3000)",
+      "Materials": [
+        "Wood_Walnut black"
+      ],
+      "Desired Stair Height": "3000.0",
+      "Category": "Stairs",
+      "Comments": "None"
+    },
+    {
+      "IfcGUID": "1N_4TwOEH5194SbNmRTDNX",
+      "Actual Tread Depth": "300.0",
+      "Actual Number of Risers": "3",
+      "Actual Riser Height": "166.66666666668817",
+      "Base Level": "Level(Name=Ceiling, Elevation=2700.00000000008)",
+      "Top Level": "Level(Name=Level 2, Elevation=3000)",
+      "Materials": [
+        "Concrete, Cast In Situ"
+      ],
+      "Desired Stair Height": "499.9999999999172",
+      "Category": "Stairs",
+      "Comments": "None"
+    }
+  ]
+}
