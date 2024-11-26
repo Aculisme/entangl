@@ -4,7 +4,12 @@
   "Description": "",
   "Name": "json_export",
   "ElementResolver": {
-    "ResolutionMap": {}
+    "ResolutionMap": {
+      "Parameter": {
+        "Key": "Revit.Elements.Parameter",
+        "Value": "RevitNodes.dll"
+      }
+    }
   },
   "Inputs": [],
   "Outputs": [],
@@ -158,6 +163,60 @@
           "Level": 2,
           "UseLevels": false,
           "KeepListStructure": false
+        },
+        {
+          "Id": "74844b1ce415405a9201ac41c014707a",
+          "Name": "item6",
+          "Description": "Item Index #6",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "6e5b9f150dd44e27a6f9f611955ed8a4",
+          "Name": "item7",
+          "Description": "Item Index #7",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "8dde17b33dce4f20a814a6b7c0de94e2",
+          "Name": "item8",
+          "Description": "Item Index #8",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "9deeb310b4d14787a4ae71c5d3cf8205",
+          "Name": "item9",
+          "Description": "Item Index #9",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "559628a9a79a4b0cb8fe25b7c088bf53",
+          "Name": "item10",
+          "Description": "Item Index #10",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "b2a211a01cdc4e49b5aea05e55a0ebaa",
+          "Name": "item11",
+          "Description": "Item Index #11",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
         }
       ],
       "Outputs": [
@@ -276,35 +335,6 @@
       "Description": "Obtain all of the Parameters from an Element, sorted by Name.\n\nElement.Parameters: Parameter[]"
     },
     {
-      "ConcreteType": "CoreNodeModels.FromArray, CoreNodeModels",
-      "Id": "93808755e7744540891d105117817ab8",
-      "NodeType": "ExtensionNode",
-      "Inputs": [
-        {
-          "Id": "ffc6882e2ea541f4a68aab24e1202a65",
-          "Name": "array",
-          "Description": "The array of object to be serialized",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "24c74995f0a943b7934cfafb26285d5c",
-          "Name": "string",
-          "Description": "String representation of the array",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Disabled",
-      "Description": "Converts an array to a string representation"
-    },
-    {
       "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
       "SelectedIndex": 744,
       "SelectedString": "OST_Windows",
@@ -390,7 +420,7 @@
     },
     {
       "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
-      "Code": "# Load the Python Standard and DesignScript Libraries\r\nimport sys\r\nimport clr\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\n\r\n# The inputs to this node will be stored as a list in the IN variables.\r\ndataEnteringNode = IN\r\n\r\n# Place your code below this line\r\nall = dataEnteringNode[0]\r\nout = 0\r\nall = all\r\nall_list = []\r\nfor cat in all:\r\n    cat_list = []\r\n    for elem in cat:\r\n        #print(elem)\r\n        #e_list = []\r\n        e_dict = {}\r\n        for param in elem:\r\n            k = str(param.Name)\r\n            v = str(param.Value)#Core.String.Action.StringFromObject(param.Value)\r\n            #out = (k, v)#Name#type(param)\r\n            #e_list += [(k, v)]\r\n            e_dict[k] = v \r\n            #break\r\n        #out = e_list\r\n        #cat_list += [e_list]\r\n        cat_list += [e_dict]\r\n        #break \r\n    all_list += [cat_list]\r\n    #break\r\n    \r\nout = all_list\r\n\r\n# Assign your output to the OUT variable.\r\nOUT = out",
+      "Code": "# Load the Python Standard and DesignScript Libraries\r\nimport sys\r\nimport clr\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\n\r\n# The inputs to this node will be stored as a list in the IN variables.\r\ndataEnteringNode = IN\r\n\r\n# Place your code below this line\r\nall = dataEnteringNode[0]\r\nmaterials = dataEnteringNode[1]\r\nout = 0\r\nall = all\r\nall_list = []\r\nfor i, cat in enumerate(all):\r\n    cat_list = []\r\n    for j, elem in enumerate(cat):\r\n        #print(elem)\r\n        #e_list = []\r\n        e_dict = {}\r\n        for param in elem:\r\n            #if\r\n            k = str(param.Name)\r\n            v = str(param.Value)#param.AsString() #AsValueString()#str(param.Value)#Core.String.Action.StringFromObject(param.Value)\r\n            #out = (k, v)#Name#type(param)\r\n            #e_list += [(k, v)]\r\n            e_dict[k] = v \r\n            #break\r\n        try:\r\n            e_dict['Materials'] = materials[i][j]\r\n        except IndexError:\r\n            continue\r\n\r\n        \r\n        #out = e_list\r\n        #cat_list += [e_list]\r\n        cat_list += [e_dict]\r\n         \r\n    all_list += [cat_list]\r\n    \r\n    \r\nout = all_list\r\n#out = dir(materials[0][0][0])#len(materials[0][0])\r\n# Assign your output to the OUT variable.\r\nOUT = out",
       "Engine": "CPython3",
       "EngineName": "CPython3",
       "VariableInputPorts": true,
@@ -401,6 +431,15 @@
           "Id": "d461f2fcfd0943fc8595a31fa1f27058",
           "Name": "IN[0]",
           "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "462b8431e4d340eab25c9588a1b64f67",
+          "Name": "IN[1]",
+          "Description": "Input #1",
           "UsingDefaultValue": false,
           "Level": 2,
           "UseLevels": false,
@@ -420,6 +459,234 @@
       ],
       "Replication": "Disabled",
       "Description": "Runs an embedded Python script."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "Code": "# Load the Python Standard and DesignScript Libraries\r\nimport clr\r\nimport sys\r\nsys.path.append('C:\\Program Files (x86)\\IronPython 2.7\\Lib')\r\nimport System\r\nfrom System import Array\r\nfrom System.Collections.Generic import *\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\nclr.AddReference(\"RevitNodes\")\r\nimport Revit\r\nclr.ImportExtensions(Revit.Elements)\r\nclr.ImportExtensions(Revit.GeometryConversion)\r\nclr.AddReference(\"RevitServices\")\r\nimport RevitServices\r\nfrom RevitServices.Persistence import DocumentManager \r\nfrom RevitServices.Transactions import TransactionManager \r\n\r\nclr.AddReference(\"RevitAPI\")\r\nclr.AddReference(\"RevitAPIUI\")\r\n\r\nimport Autodesk \r\nfrom Autodesk.Revit.DB import *\r\nfrom Autodesk.Revit.UI import *\r\n\r\ndoc = DocumentManager.Instance.CurrentDBDocument\r\nuiapp = DocumentManager.Instance.CurrentUIApplication \r\napp = uiapp.Application \r\nuidoc = uiapp.ActiveUIDocument\r\n\r\n# The inputs to this node will be stored as a list in the IN variables.\r\ndataEnteringNode = IN\r\n\r\n# Place your code below this line\r\n\r\n#wall_collector = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).WhereElementIsNotElementType()\r\n\r\n\r\n#door_collector = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Doors).WhereElementIsNotElementType()\r\nfrom Autodesk.Revit.DB import FilteredElementCollector, BuiltInCategory, ElementCategoryFilter, LogicalOrFilter\r\n\r\n# Assume 'doc' is your Revit document\r\n\r\n# Define the categories you want to filter\r\ncategories = [\r\n    #BuiltInCategory.OST_Walls, \r\n    BuiltInCategory.OST_Doors, \r\n    BuiltInCategory.OST_Windows\r\n]\r\n\r\n# Create individual category filters\r\ncategory_filters = [ElementCategoryFilter(category) for category in categories]\r\n\r\n# Combine them into a LogicalOrFilter\r\ncombined_filter = LogicalOrFilter(category_filters)\r\n\r\n# Use FilteredElementCollector with the combined filter\r\ncollector = FilteredElementCollector(doc).WherePasses(combined_filter).WhereElementIsNotElementType()\r\n\r\n# Collect the elements\r\nelements = collector.ToElements()\r\n\r\ndef get_parameter_value(param):\r\n    if param.StorageType == StorageType.String:\r\n        return param.AsString()\r\n    elif param.StorageType == StorageType.Double:\r\n        return param.AsDouble()\r\n    elif param.StorageType == StorageType.Integer:\r\n        return param.AsInteger()\r\n    elif param.StorageType == StorageType.ElementId:\r\n        return param.AsElementId()\r\n    return None\r\n\r\nout = []\r\n\r\n# Print the results\r\nfor elem in elements:\r\n    \r\n    for param in elem.Parameters:\r\n        param_name = param.Definition.Name\r\n        param_value = get_parameter_value(param)\r\n        out += [(param_name, param_value)]\r\n        #print(f\"  {param_name}: {param_value}\")\r\n        \r\n    if hasattr(elem, \"GetMaterialIds\"):\r\n        material_ids = elem.GetMaterialIds(False)  # False means physical material ids\r\n        #print(f\"  Materials:\")\r\n        materials = []\r\n        for material_id in material_ids:\r\n            material = doc.GetElement(material_id)\r\n            materials += [material.Name]\r\n            #print(f\"    {material.Name}\")\r\n        out += [materials]\r\n    OUT = out\r\n    #print(f\"Element ID: {elem.Id}, Name: {elem.Name}\")\r\n    break\r\n\r\n#out = []\r\n#wall_params = ['CrossSection', 'StructuralUsage', 'Width'] # Orientation\r\n#for wall in wall_collector:\r\n#    w = []\r\n#    params = wall.GetOrderedParameters()#dir(wall)\r\n#    for param in params:\r\n#        w += [param.AsValueString()]\r\n#    OUT = w\r\n#    break\r\n    #w[''\r\n\r\n# Assign your output to the OUT variable.\r\n#OUT = 0\r\n\r\n\r\n",
+      "Engine": "CPython3",
+      "EngineName": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "08509d6404544a9f88c19aab6f493f58",
+      "NodeType": "PythonScriptNode",
+      "Inputs": [
+        {
+          "Id": "89b7b0888e2143a28e74166991e0ec44",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "d5118e308d64472eaac38385c37ea078",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "87d4c98010ca4b3b9d24cd2cb108523d",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "869a09edc52d4c74ae5a27b799de4105",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "910b945cab714e26abb8581fe5bca7b3",
+          "Name": "paintMaterials",
+          "Description": "Paint Materials\n\nbool\nDefault value : false",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "60970829157145d8bd3d8311637071ea",
+          "Name": "Material[]",
+          "Description": "List of Names",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "Revit.Elements.Element.GetMaterials@bool",
+      "Replication": "Auto",
+      "Description": "Get Material Names from a Revit Element\n\nElement.GetMaterials (paintMaterials: bool = false): Material[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "d8a79bed70394ff5884be54d3fc84ef5",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "2a910acb916f4cd8bb8c9dead5a98948",
+          "Name": "material",
+          "Description": "Revit.Elements.Material",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "d3c3e018ddbc4d338fd4f2d7800712f1",
+          "Name": "string",
+          "Description": "string",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "Revit.Elements.Material.Name",
+      "Replication": "Auto",
+      "Description": "Get Material Name\n\nMaterial.Name: string"
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 487,
+      "SelectedString": "OST_Roofs",
+      "Id": "39121409254a45a2859d403bec95bc8e",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "514fafe3b56c4f9897d82edffb0cb2fd",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 423,
+      "SelectedString": "OST_PipeCurves",
+      "Id": "d2aa0e87c4324686aac53140db0ec804",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "8254574a319845168d99be8a0c2690b7",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 259,
+      "SelectedString": "OST_Furniture",
+      "Id": "58d600ce07974f97aca90e3d7c0496a1",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "a89ecc5752e34f509a29af3558f2ad53",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 14,
+      "SelectedString": "OST_MEPAnalyticalAirLoop",
+      "Id": "34b71d200f484ef5b35ef50b9683a8c0",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "3021ac67c7764dfdbb20c90be0934cde",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 135,
+      "SelectedString": "OST_Columns",
+      "Id": "e6f889771f34452394aab01c3f9cce0d",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "4146f582c2774f07a01d1e464439622e",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 568,
+      "SelectedString": "OST_Stairs",
+      "Id": "825197b1847940ff8801125f68f4190e",
+      "NodeType": "ExtensionNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "624f6662c5d24791b7bc33b591de9b07",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
     }
   ],
   "Connectors": [
@@ -443,14 +710,14 @@
     },
     {
       "Start": "72ec2664c6ed43cb8e472f2c72cecc31",
-      "End": "efc43d7ebcd048a4ac4639800eacbf02",
-      "Id": "053f4455c3ea45b0b3529e1173d9faad",
+      "End": "3fa81dc31c684ebda64980e4667c5c96",
+      "Id": "ea11530cac394a6795c2a0008d2963a5",
       "IsHidden": "False"
     },
     {
       "Start": "3853829bb2bd49a9aa739acc029625bc",
-      "End": "d6a96e8959b44baf845d204ddc461207",
-      "Id": "7eb2b979f41b43aaa5ff868dfc9a9ae5",
+      "End": "efc43d7ebcd048a4ac4639800eacbf02",
+      "Id": "d7fe5c4375fb47fc85c3570d77f98a5e",
       "IsHidden": "False"
     },
     {
@@ -460,9 +727,9 @@
       "IsHidden": "False"
     },
     {
-      "Start": "6d039da309e94a448809d15aa85558e6",
-      "End": "ffc6882e2ea541f4a68aab24e1202a65",
-      "Id": "6951ec28293e4aaa8b10836c3eceab1f",
+      "Start": "8b2e4f3f8e9f46ef9a516a4eca5ab288",
+      "End": "869a09edc52d4c74ae5a27b799de4105",
+      "Id": "f3f070b389a04d4ead28820e768a0de9",
       "IsHidden": "False"
     },
     {
@@ -473,8 +740,8 @@
     },
     {
       "Start": "a0413b30cbb945e08f7c2cce93261ca7",
-      "End": "3fa81dc31c684ebda64980e4667c5c96",
-      "Id": "ca648cf0e89b4dd89da875f5314d3b46",
+      "End": "d6a96e8959b44baf845d204ddc461207",
+      "Id": "4de01cdc35dd491790cb43101c01a6d0",
       "IsHidden": "False"
     },
     {
@@ -499,6 +766,54 @@
       "Start": "57c2ae9367224c8fb1bd89fbdde62bdf",
       "End": "895c7bdc0f2e46b9a30d0cabdea4ffbb",
       "Id": "57f5426e4559406892303abac539c048",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "60970829157145d8bd3d8311637071ea",
+      "End": "2a910acb916f4cd8bb8c9dead5a98948",
+      "Id": "eade59727bfc421e92ef774d851f715e",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "d3c3e018ddbc4d338fd4f2d7800712f1",
+      "End": "462b8431e4d340eab25c9588a1b64f67",
+      "Id": "e0536beafe8c40bfa5d214b5e341fe75",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "514fafe3b56c4f9897d82edffb0cb2fd",
+      "End": "8dde17b33dce4f20a814a6b7c0de94e2",
+      "Id": "df62863871bc4672b62d913a8a588c4a",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "8254574a319845168d99be8a0c2690b7",
+      "End": "6e5b9f150dd44e27a6f9f611955ed8a4",
+      "Id": "cb8ed25aa6e843c4a30cefc5f7eee9e9",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "a89ecc5752e34f509a29af3558f2ad53",
+      "End": "74844b1ce415405a9201ac41c014707a",
+      "Id": "6cdb5473b42a450a8fd97bec2cd81c2b",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "3021ac67c7764dfdbb20c90be0934cde",
+      "End": "b2a211a01cdc4e49b5aea05e55a0ebaa",
+      "Id": "ca7c68340eb64da1970d0bf9444a509f",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "4146f582c2774f07a01d1e464439622e",
+      "End": "559628a9a79a4b0cb8fe25b7c088bf53",
+      "Id": "6282fb3334fb4dc2815f709cb4451c1e",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "624f6662c5d24791b7bc33b591de9b07",
+      "End": "9deeb310b4d14787a4ae71c5d3cf8205",
+      "Id": "1c6f948994ae454ba2d2dbef368483e0",
       "IsHidden": "False"
     }
   ],
@@ -566,8 +881,8 @@
         "IsSetAsOutput": false,
         "Excluded": false,
         "ShowGeometry": true,
-        "X": 1922.8919144093622,
-        "Y": 265.00876465148343
+        "X": 2104.1495716150557,
+        "Y": 106.4083145965015
       },
       {
         "Id": "98fbfb20c500474c829a1619454a8744",
@@ -576,8 +891,8 @@
         "IsSetAsOutput": false,
         "Excluded": false,
         "ShowGeometry": true,
-        "X": 1672.0941695404026,
-        "Y": 111.12261618149358
+        "X": 1883.1639414180854,
+        "Y": -39.1304417653314
       },
       {
         "Id": "8251fb0ce9a3407ba7c81fc0d5dc2f4c",
@@ -586,8 +901,8 @@
         "IsSetAsOutput": false,
         "Excluded": false,
         "ShowGeometry": true,
-        "X": 1607.8259154970401,
-        "Y": 275.93837827536305
+        "X": 1802.2009031584093,
+        "Y": 118.53041280726075
       },
       {
         "Id": "114fd9ecc5a9423eb1d635ca49be7435",
@@ -606,8 +921,8 @@
         "IsSetAsOutput": false,
         "Excluded": false,
         "ShowGeometry": true,
-        "X": -92.773936388964444,
-        "Y": 22.602827495609176
+        "X": -94.1019789249774,
+        "Y": 253.68222876186707
       },
       {
         "Id": "f81d41c305d74187b02ed805604abd99",
@@ -636,18 +951,8 @@
         "IsSetAsOutput": false,
         "Excluded": false,
         "ShowGeometry": true,
-        "X": 889.961845708918,
-        "Y": 215.21598707004978
-      },
-      {
-        "Id": "93808755e7744540891d105117817ab8",
-        "Name": "String from Array",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "ShowGeometry": true,
-        "X": 1249.659804926011,
-        "Y": 232.24903217183538
+        "X": 935.27626001034173,
+        "Y": -63.825406259768073
       },
       {
         "Id": "301519e0bf4045958ef612af9dfe8bab",
@@ -656,8 +961,8 @@
         "IsSetAsOutput": false,
         "Excluded": false,
         "ShowGeometry": true,
-        "X": -93.78107812636074,
-        "Y": 233.2415533464449
+        "X": -96.437163198386656,
+        "Y": 26.066917728420549
       },
       {
         "Id": "bd5ef63e3f1e45b39b85c7cada0dd5f0",
@@ -696,13 +1001,103 @@
         "IsSetAsOutput": false,
         "Excluded": false,
         "ShowGeometry": true,
-        "X": 1206.8688578875015,
-        "Y": 449.30559384643811
+        "X": 1522.8772734105858,
+        "Y": 113.02494034640131
+      },
+      {
+        "Id": "08509d6404544a9f88c19aab6f493f58",
+        "Name": "Python Script",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 368.54608068521793,
+        "Y": -454.37391791936756
+      },
+      {
+        "Id": "87d4c98010ca4b3b9d24cd2cb108523d",
+        "Name": "Element.GetMaterials",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 856.63950450729,
+        "Y": 373.67127941757718
+      },
+      {
+        "Id": "d8a79bed70394ff5884be54d3fc84ef5",
+        "Name": "Material.Name",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1157.4097267180534,
+        "Y": 378.26854672109494
+      },
+      {
+        "Id": "39121409254a45a2859d403bec95bc8e",
+        "Name": "Categories",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": -100.54992768802265,
+        "Y": 945.23925310223945
+      },
+      {
+        "Id": "d2aa0e87c4324686aac53140db0ec804",
+        "Name": "Categories",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": -100.10865329515747,
+        "Y": 825.60587197715131
+      },
+      {
+        "Id": "58d600ce07974f97aca90e3d7c0496a1",
+        "Name": "Categories",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": -95.751901004966953,
+        "Y": 709.88796874938737
+      },
+      {
+        "Id": "34b71d200f484ef5b35ef50b9683a8c0",
+        "Name": "Categories",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": -102.21188619499094,
+        "Y": 1297.6487145661963
+      },
+      {
+        "Id": "e6f889771f34452394aab01c3f9cce0d",
+        "Name": "Categories",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": -101.77061180212576,
+        "Y": 1178.0153334411082
+      },
+      {
+        "Id": "825197b1847940ff8801125f68f4190e",
+        "Name": "Categories",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": -97.413859511935243,
+        "Y": 1062.2974302133443
       }
     ],
     "Annotations": [],
-    "X": 47.716857342832782,
-    "Y": 126.62999840510741,
-    "Zoom": 0.49037965435992742
+    "X": -793.33172860050274,
+    "Y": 286.96808108628568,
+    "Zoom": 0.79957534274481668
   }
 }
